@@ -1,0 +1,49 @@
+{
+    "pGem": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 2,
+                "weight": 17
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 6,
+                "weight": 17
+            },
+			{
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 8,
+                "weight": 17
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 10,
+                "weight": 16
+            },
+			{
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 12,
+                "weight": 16
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 14,
+                "weight": 16
+            }	
+        ],
+        "clusterSize": 2,
+        "numClusters": 1,
+        "minHeight": 37,
+        "maxHeight": 45,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

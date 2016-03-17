@@ -1,0 +1,59 @@
+{
+   "pYellorite": {
+        "template": "uniform",
+        "block":{
+		  "name": "BigReactors:YelloriteOre",
+		  "metadata": 0
+		}, 
+        "clusterSize": 6,
+        "numClusters": 2,
+        "minHeight": 5,
+        "maxHeight": 8,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }, 
+	"sYellorite": {
+        "template": "uniform",
+        "block":{
+		  "name": "BigReactors:YelloriteOre",
+		  "metadata": 0
+		}, 
+        "clusterSize": 3,
+        "numClusters": 3,
+        "minHeight": 3,
+        "maxHeight": 10,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"tYellorite": {
+        "template": "uniform",
+        "block":{
+		   "name": "BigReactors:YelloriteOre",
+		   "metadata": 0
+		}, 
+        "clusterSize": 2,
+        "numClusters": 5,
+        "minHeight": 1,
+        "maxHeight": 12,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+	}	
+}

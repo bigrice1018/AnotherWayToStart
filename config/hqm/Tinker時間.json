@@ -1,0 +1,2496 @@
+{
+  "name": "Tinker時間",
+  "quests": [
+    {
+      "name": "來製作焦黑磚!",
+      "x": 29,
+      "y": 42,
+      "icon": {
+        "id": "TConstruct:materials",
+        "damage": 2
+      },
+      "prerequisites": [
+        "來製作第1本TIC書"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有一本治煉書",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:manualBook",
+                "damage": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "擁有製作水泥的材料",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:clay_ball"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:sand"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:gravel"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "製作水泥!",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:CraftedSoil",
+                "damage": 1
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "來製作焦黑碇!",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 2
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 2,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "來製作3*3大熔爐!",
+      "x": 27,
+      "y": 71,
+      "icon": {
+        "id": "TConstruct:Smeltery",
+        "damage": 2
+      },
+      "prerequisites": [
+        "來製作焦黑磚!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "來製作治煉爐的基礎方塊",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:Smeltery",
+                "damage": 2
+              },
+              "required": 17
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "來製作治煉爐的核心方塊!",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:Smeltery"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "來製作治煉爐的燃料放置方塊",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:LavaTank"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "來製作治煉爐的輸出元件",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:Smeltery",
+                "damage": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "TConstruct:SearedBlock",
+                "damage": 1
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "TConstruct:SearedBlock"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:SearedBlock",
+                "damage": 2
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:Smeltery",
+          "damage": 2,
+          "amount": 9
+        },
+        {
+          "id": "ExtraUtilities:budoff",
+          "damage": 3
+        },
+        {
+          "id": "minecraft:lava_bucket"
+        },
+        {
+          "id": "minecraft:lever"
+        }
+      ]
+    },
+    {
+      "name": "來製作TIC工作桌!",
+      "description": "獎勵未確定",
+      "x": 55,
+      "y": 39,
+      "icon": {
+        "id": "TConstruct:ToolStationBlock"
+      },
+      "prerequisites": [
+        "來製作第1本TIC書"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "來製作模具製作桌",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock",
+                "damage": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "來製作模組儲存箱",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock",
+                "damage": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "來製作部件製作桌",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "來製作部件組合桌",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:ToolStationBlock"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "來製作第1本TIC書",
+      "description": "需轉移章節,獎勵未確定",
+      "x": 29,
+      "y": 10,
+      "icon": {
+        "id": "TConstruct:manualBook"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "製作tic基礎書",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:manualBook"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:hatchet",
+          "nbt": "{InfiTool:{BaseDurability:128,Head:3,BaseAttack:5,ToolEXP:0,Built:1b,HarvestLevel:1,Attack:5,RenderHead:3,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,MiningSpeed:500,ToolLevel:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:128,Modifiers:0},display:{Name:\"§f燧石 手斧\"}}"
+        },
+        {
+          "id": "TConstruct:pickaxe",
+          "nbt": "{InfiTool:{BaseDurability:128,Head:3,HeadEXP:0,BaseAttack:3,ToolEXP:0,Built:1b,HarvestLevel:0,Attack:3,RenderHead:3,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,Accessory:3,MiningSpeed:500,RenderAccessory:3,ToolLevel:1,HarvestLevelModified:0b,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:128,Modifiers:0},display:{Name:\"§f燧石 鎬\"}}"
+        },
+        {
+          "id": "TConstruct:shovel",
+          "nbt": "{InfiTool:{BaseDurability:128,Head:3,BaseAttack:4,ToolEXP:0,Built:1b,HarvestLevel:1,Attack:4,RenderHead:3,ModDurability:0.0f,Handle:0,Broken:0b,Shoddy:0.0f,RenderHandle:0,MiningSpeed:500,ToolLevel:1,Unbreaking:0,Damage:0,BonusDurability:0,TotalDurability:128,Modifiers:0},display:{Name:\"§f燧石 鏟\"}}"
+        },
+        {
+          "id": "minecraft:flint",
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "來獲取彎刀模板!",
+      "x": 91,
+      "y": 12,
+      "icon": {
+        "id": "TConstruct:woodPattern",
+        "damage": 22
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "繳交一顆鑽石",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:woodPattern",
+          "damage": 22
+        },
+        {
+          "id": "TConstruct:metalPattern",
+          "damage": 22
+        }
+      ]
+    },
+    {
+      "name": "來製作模版!(問題)",
+      "x": 60,
+      "y": 12,
+      "icon": {
+        "id": "TConstruct:woodPattern",
+        "damage": 2
+      },
+      "prerequisites": [
+        "來製作第1本TIC書"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "來製作模板!",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 2
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 3
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:woodPattern",
+                "damage": 9
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:metalPattern",
+          "damage": 2
+        },
+        {
+          "id": "TConstruct:metalPattern",
+          "damage": 3
+        },
+        {
+          "id": "TConstruct:metalPattern",
+          "damage": 4
+        },
+        {
+          "id": "TConstruct:metalPattern",
+          "damage": 9
+        },
+        {
+          "id": "TConstruct:metalPattern",
+          "damage": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "TConstruct:blankPattern",
+          "amount": 16
+        },
+        {
+          "id": "TConstruct:blankPattern",
+          "damage": 1,
+          "amount": 16
+        }
+      ]
+    },
+    {
+      "name": "來製作進階工作桌",
+      "x": 82,
+      "y": 52,
+      "icon": {
+        "id": "TConstruct:ToolForgeBlock"
+      },
+      "prerequisites": [
+        "來製作TIC工作桌!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "製作進階工作桌",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:ToolForgeBlock"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "TConstruct:mattock",
+          "nbt": "{InfiTool:{MiningSpeed2:750,BaseDurability:639,Head:2,BaseAttack:6,ToolEXP:0,Built:1b,HarvestLevel:3,Attack:6,RenderHead:2,ModDurability:0.0f,Handle:8,Broken:0b,Shoddy:0.0f,RenderHandle:8,Accessory:2,MiningSpeed:750,RenderAccessory:2,ToolLevel:1,Unbreaking:1,Damage:0,HarvestLevel2:3,BonusDurability:0,TotalDurability:639,Modifiers:0},display:{Name:\"§f鐵 鶴嘴鋤\"}}"
+        },
+        {
+          "id": "TConstruct:excavator",
+          "nbt": "{InfiTool:{RenderExtra:31,BaseDurability:2095,BaseAttack:6,ToolEXP:0,Built:1b,HarvestLevel:3,RenderHead:2,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:8,Accessory:2,MiningSpeed:750,Unbreaking:1,Damage:0,HarvestLevel2:3,BonusDurability:0,TotalDurability:2095,MiningSpeed2:750,Head:2,Attack:6,Handle:8,Broken:0b,Extra:31,RenderAccessory:2,ToolLevel:1,Modifiers:1},display:{Name:\"§f鐵 開掘鏟\"}}"
+        },
+        {
+          "id": "TConstruct:hammer",
+          "nbt": "{InfiTool:{RenderExtra:2,BaseDurability:3834,BaseAttack:6,ToolEXP:0,Built:1b,HarvestLevel:2,HarvestLevelExtra:3,RenderHead:2,ModDurability:0.0f,MiningSpeedExtra:750,Shoddy:0.0f,RenderHandle:8,Accessory:2,MiningSpeed:750,Unbreaking:1,Damage:0,HarvestLevel2:3,BonusDurability:0,TotalDurability:3834,MiningSpeed2:750,Head:2,HeadEXP:0,Attack:6,Handle:8,Broken:0b,Extra:2,RenderAccessory:2,ToolLevel:1,HarvestLevelModified:0b,Modifiers:0},display:{Name:\"§f鐵 錘\"}}"
+        },
+        {
+          "id": "TConstruct:lumberaxe",
+          "nbt": "{InfiTool:{RenderExtra:31,BaseDurability:1905,BaseAttack:4,ToolEXP:0,Built:1b,HarvestLevel:3,RenderHead:2,ModDurability:0.0f,Shoddy:0.0f,RenderHandle:8,Accessory:2,MiningSpeed:750,Unbreaking:1,Damage:0,HarvestLevel2:3,BonusDurability:0,TotalDurability:1905,MiningSpeed2:750,Head:2,Attack:4,Handle:8,Broken:0b,Extra:31,RenderAccessory:2,ToolLevel:1,Modifiers:1},display:{Name:\"§f鐵 伐木斧\"}}"
+        }
+      ]
+    },
+    {
+      "name": "來獲取史萊姆樹苗!",
+      "x": 117,
+      "y": 11,
+      "icon": {
+        "id": "TConstruct:slime.sapling"
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "description": "擊殺10支史萊姆",
+          "mobs": [
+            {
+              "name": "New",
+              "icon": {
+                "id": "OpenBlocks:trophy",
+                "nbt": "{entity:\"Slime\"}"
+              },
+              "mob": "Slime",
+              "kills": 10,
+              "exact": true
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:slime.sapling"
+        }
+      ]
+    },
+    {
+      "name": "來製作阿迪特碇",
+      "x": 78,
+      "y": 153,
+      "icon": {
+        "id": "TConstruct:SearedBrick",
+        "damage": 2
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5塊Ardite礦",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:SearedBrick",
+                "damage": 2
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個Ardite碇",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 4
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 4,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "來製作姑碇",
+      "x": 46,
+      "y": 168,
+      "icon": {
+        "id": "TConstruct:SearedBrick",
+        "damage": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5塊姑礦",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:SearedBrick",
+                "damage": 1
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10塊姑碇",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 3
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 3,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "製作瑪玉靈",
+      "x": 77,
+      "y": 187,
+      "icon": {
+        "id": "TConstruct:materials",
+        "damage": 5
+      },
+      "prerequisites": [
+        "來製作阿迪特碇",
+        "來製作姑碇"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有製作10個瑪玉靈的材料",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 4
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 3
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個瑪玉靈",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 5
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 5,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "來蒐集礦物莓果",
+      "x": 142,
+      "y": 11,
+      "icon": {
+        "id": "TConstruct:ore.berries.one",
+        "damage": 8
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "持有各式各樣的礦物莓果",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:ore.berries.one",
+                "damage": 8
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ore.berries.one",
+                "damage": 9
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ore.berries.one",
+                "damage": 10
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ore.berries.one",
+                "damage": 11
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:ore.berries.two",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:ore.berries.two",
+          "damage": 9,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "來製作豬鐵",
+      "x": 102,
+      "y": 113,
+      "icon": {
+        "id": "TConstruct:materials",
+        "damage": 34
+      },
+      "prerequisites": [
+        "來製作鐵碇",
+        "來製作綠寶石"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有製作10個豬鐵的材料",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "minecraft:emerald"
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "TConstruct:liquid.blood"
+              },
+              "required": 800
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個豬鐵",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 34
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 34,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "來製作金屬模板",
+      "description": "獎勵未設定",
+      "x": 53,
+      "y": 67,
+      "icon": {
+        "id": "TConstruct:blankPattern",
+        "damage": 1
+      },
+      "prerequisites": [
+        "來製作模版!(問題)",
+        "來製作進階工作桌",
+        "來製作3*3大熔爐!"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "來製作空白模板",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:blankPattern",
+                "damage": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "來製作金屬用的模板",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 27
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern"
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 26
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "來製作高階工具用的模板",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 19
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 21
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 17
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 16
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 14
+              }
+            },
+            {
+              "item": {
+                "id": "TConstruct:metalPattern",
+                "damage": 15
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:pickaxeHead",
+          "damage": 2
+        },
+        {
+          "id": "TConstruct:shovelHead",
+          "damage": 2
+        },
+        {
+          "id": "TConstruct:hatchetHead",
+          "damage": 2
+        }
+      ]
+    },
+    {
+      "name": "來製作tic包包",
+      "description": "未設好獎勵",
+      "x": 105,
+      "y": 34,
+      "icon": {
+        "id": "TConstruct:knapsack"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "製作tic包包",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:knapsack"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "來製作絲綢寶石",
+      "description": "未設好獎勵",
+      "x": 117,
+      "y": 56,
+      "icon": {
+        "id": "TConstruct:materials",
+        "damage": 26
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "絲綢寶石",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 26
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "來製作終界石",
+      "x": 130,
+      "y": 34,
+      "icon": {
+        "id": "minecraft:end_stone"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "準備製作終界石的材料",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_pearl"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:sandstone"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有1個終界石",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:end_stone"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:end_stone",
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "name": "來製作Pokefennium",
+      "x": 232,
+      "y": 191,
+      "icon": {
+        "id": "ExtraTiC:funStuffIngot",
+        "damage": 1
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "擁有製作10個Pokefennium的材料",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 3
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "TConstruct:liquid.blood"
+              },
+              "required": 1440
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "持有10個Pokefennium",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraTiC:funStuffIngot",
+                "damage": 1
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraTiC:funStuffIngot",
+          "damage": 1,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "來製作琥珀金",
+      "x": 225,
+      "y": 34,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 71
+      },
+      "prerequisites": [
+        "來製作銀錠",
+        "來製作金碇"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有製作10個琥珀金的材料",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 66
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個琥珀金",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 71
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 71,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "來製作殷鋼",
+      "x": 215,
+      "y": 50,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 72
+      },
+      "prerequisites": [
+        "來製作亞鐵碇",
+        "來製作鐵碇"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有製作15個殷鋼的材料",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 68
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有15個殷鋼",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 72
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 72,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "來製作青銅",
+      "x": 171,
+      "y": 51,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 73
+      },
+      "prerequisites": [
+        "來製作銅碇",
+        "來製作錫碇"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有製作20個青銅的材料",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 64
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 65
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有20個青銅",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 73
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 73,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "來製作信素碇",
+      "x": 292,
+      "y": 193,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 74
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有製作20個信素碇的材料",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 64
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 66
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 50
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有20個信素碇",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 74
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 74,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "來製作Fairy",
+      "x": 263,
+      "y": 15,
+      "icon": {
+        "id": "ExtraTiC:funStuffIngot"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有製作15個Fairy的材料",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 4
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "minecraft:obsidian"
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "TConstruct:liquid.blood"
+              },
+              "required": 2880
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有15個Fairy碇",
+          "items": [
+            {
+              "item": {
+                "id": "ExtraTiC:funStuffIngot"
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ExtraTiC:funStuffIngot",
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "來製作光素碇",
+      "x": 281,
+      "y": 174,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 75
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有製作20個光素碇的材料",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 65
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 66
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:glowstone"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有20個光素碇",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 75
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 75,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "來製作終界碇",
+      "x": 270,
+      "y": 193,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 76
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有製作20個終界碇的材料",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 66
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 65
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 69
+              },
+              "required": 5
+            },
+            {
+              "item": {
+                "id": "minecraft:ender_pearl"
+              },
+              "required": 20
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有20個終界碇",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 76
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 76,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "來製作黑曜石碇",
+      "x": 177,
+      "y": 120,
+      "icon": {
+        "id": "TConstruct:materials",
+        "damage": 18
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5塊黑曜石",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:obsidian"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個黑曜石碇",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 18
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 18
+        }
+      ]
+    },
+    {
+      "name": "來製作鋁碇",
+      "x": 91,
+      "y": 83,
+      "icon": {
+        "id": "TConstruct:materials",
+        "damage": 11
+      },
+      "prerequisites": [
+        "來製作銅碇"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5個鋁礦",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:SearedBrick",
+                "damage": 5
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個鋁錠",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 11
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 11,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "來製作耐酸鋁",
+      "x": 298,
+      "y": 59,
+      "icon": {
+        "id": "TConstruct:materials",
+        "damage": 15
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有製作45個耐酸鋁的材料",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 11
+              },
+              "required": 25
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 10
+            },
+            {
+              "item": {
+                "id": "minecraft:obsidian"
+              },
+              "required": 10
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有45個耐酸鋁",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 15
+              },
+              "required": 45
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 15,
+          "amount": 15
+        }
+      ]
+    },
+    {
+      "name": "來製作錫碇",
+      "x": 191,
+      "y": 13,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 65
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5個錫礦",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:Ore",
+                "damage": 1
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個錫碇",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 65
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 65,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "來製作銀錠",
+      "x": 203,
+      "y": 32,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 66
+      },
+      "prerequisites": [
+        "來製作鉛錠"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5個銀礦",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:Ore",
+                "damage": 2
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個銀碇",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 66
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 66,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "來製作亞鐵碇",
+      "x": 193,
+      "y": 51,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 68
+      },
+      "prerequisites": [
+        "來製作銀錠"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5個亞鐵礦",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:Ore",
+                "damage": 4
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個亞鐵碇",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 68
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 68,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "來製作鉛錠",
+      "x": 181,
+      "y": 32,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 67
+      },
+      "prerequisites": [
+        "來製作錫碇"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5個鉛礦",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:Ore",
+                "damage": 3
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個鉛碇",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 67
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 67,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "來製作注魔碇",
+      "x": 182,
+      "y": 70,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 70
+      },
+      "prerequisites": [
+        "來製作亞鐵碇"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5個注魔礦",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:Ore",
+                "damage": 6
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個注魔碇",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 70
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 70,
+          "amount": 5
+        }
+      ]
+    },
+    {
+      "name": "來製作鉑碇",
+      "x": 204,
+      "y": 69,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 69
+      },
+      "prerequisites": [
+        "來製作亞鐵碇"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5個鉑礦",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:Ore",
+                "damage": 5
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個鉑碇",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 69
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 69,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "來製作鐵碇",
+      "x": 68,
+      "y": 118,
+      "icon": {
+        "id": "minecraft:iron_ingot"
+      },
+      "prerequisites": [
+        "來製作銅碇"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5個鐵礦",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ore"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個鐵碇",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_ingot"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_ingot",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "來製作金碇",
+      "x": 276,
+      "y": 44,
+      "icon": {
+        "id": "minecraft:gold_ingot"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5塊金礦",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_ore"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個金碇",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_ingot"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:gold_ingot",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "來製作鋼碇",
+      "description": "已設定，未編輯",
+      "x": 104,
+      "y": 139,
+      "icon": {
+        "id": "Railcraft:ingot"
+      },
+      "prerequisites": [
+        "來製作鐵碇"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有製作*個鋼碇的材料",
+          "items": []
+        },
+        {
+          "type": "DETECT",
+          "description": "持有*個鋼碇",
+          "items": []
+        }
+      ],
+      "reward": [
+        {
+          "id": "Railcraft:ingot"
+        }
+      ]
+    },
+    {
+      "name": "來製作銅碇",
+      "x": 48,
+      "y": 98,
+      "icon": {
+        "id": "ThermalFoundation:material",
+        "damage": 64
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5個銅礦",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:Ore"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個銅碇",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 64
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalFoundation:material",
+          "damage": 64,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "擁有更快地燃燒的液體",
+      "x": 115,
+      "y": 175,
+      "icon": {
+        "id": "ThermalFoundation:bucket",
+        "damage": 3
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "製作出32個沸石",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 512
+              },
+              "required": 32
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有8桶沸石液體",
+          "items": [
+            {
+              "item": {
+                "id": "ThermalExpansion:Tank",
+                "damage": 1,
+                "nbt": "{Fluid:{FluidName:\"pyrotheum\",Amount:8000}}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "ThermalExpansion:Tank",
+          "damage": 2,
+          "nbt": "{Fluid:{FluidName:\"pyrotheum\",Amount:32000}}"
+        }
+      ]
+    },
+    {
+      "name": "來製作綠寶石",
+      "x": 128,
+      "y": 111,
+      "icon": {
+        "id": "minecraft:emerald"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有5個綠寶石礦",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:emerald_ore"
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有10個綠寶石",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:emerald"
+              },
+              "required": 10
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:emerald",
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "name": "來製作鋁黃銅",
+      "x": 126,
+      "y": 85,
+      "icon": {
+        "id": "TConstruct:materials",
+        "damage": 14
+      },
+      "prerequisites": [
+        "來製作鋁碇"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "擁有製作20個鋁黃銅的材料",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 11
+              },
+              "required": 15
+            },
+            {
+              "item": {
+                "id": "ThermalFoundation:material",
+                "damage": 64
+              },
+              "required": 5
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "持有20個鋁黃銅碇",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 14
+              },
+              "required": 20
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "TConstruct:materials",
+          "damage": 14,
+          "amount": 8
+        }
+      ]
+    },
+    {
+      "name": "來製作更智慧的輸出裝置",
+      "description": "獎勵未定",
+      "x": 230,
+      "y": 103,
+      "icon": {
+        "id": "tinker_io:SmartOutput"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "製作1個智能輸出裝置",
+          "items": [
+            {
+              "item": {
+                "id": "tinker_io:SmartOutput"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "來製作更智慧的加速裝置",
+      "description": "獎勵未定",
+      "x": 226,
+      "y": 132,
+      "icon": {
+        "id": "tinker_io:fuelInputMachine"
+      },
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "製作1個燃料輸出機",
+          "items": [
+            {
+              "item": {
+                "id": "tinker_io:fuelInputMachine"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "更好的速度",
+      "description": "獎勵未設定",
+      "x": 279,
+      "y": 116,
+      "icon": {
+        "id": "tinker_io:SpeedUPG"
+      },
+      "prerequisites": [
+        "來製作更智慧的輸出裝置",
+        "來製作更智慧的加速裝置"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "製作一個容量升級",
+          "items": [
+            {
+              "item": {
+                "id": "tinker_io:Upgrade",
+                "damage": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "tinker_io:Upgrade",
+                "damage": 2
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "tinker_io:Upgrade",
+                "damage": 3
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "tinker_io:Upgrade",
+                "damage": 4
+              },
+              "required": 8
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "來做個紅石升級",
+          "items": [
+            {
+              "item": {
+                "id": "tinker_io:Upgrade",
+                "damage": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "來做個速度燃料",
+          "items": [
+            {
+              "item": {
+                "id": "tinker_io:SolidFuel"
+              },
+              "required": 64
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "來做個空間升級",
+          "items": [
+            {
+              "item": {
+                "id": "tinker_io:Upgrade",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "tinker_io:SolidFuel",
+          "amount": 64
+        }
+      ]
+    },
+    {
+      "name": "更強的耐久體驗",
+      "description": "獎勵未設定",
+      "x": 137,
+      "y": 176,
+      "icon": {
+        "id": "minecraft:diamond"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "50趴耐久提升",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:emerald"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "500耐久提升",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "耐久提升",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:heavyPlate",
+                "damage": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "自動修復",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "對怪物傷害更強大",
+      "description": "獎勵未設定",
+      "x": 184,
+      "y": 191,
+      "icon": {
+        "id": "TConstruct:materials",
+        "damage": 8
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "傷害增強",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:quartz"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:quartz_block"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "擊退",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:piston"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "火焰傷害",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:blaze_powder"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "對不死怪物傷害提升",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:CraftedSoil",
+                "damage": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "對截肢怪物傷害提升",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:fermented_spider_eye"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "增強砍頭機會",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:ender_pearl"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:obsidian"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "打怪回血",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "更好的工具能力提升",
+      "description": "獎勵未設定",
+      "x": 195,
+      "y": 172,
+      "icon": {
+        "id": "minecraft:redstone"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "速度提升",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone_block"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "幸運提升",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dye",
+                "damage": 4
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:lapis_block"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "火焰熔煉",
+          "items": [
+            {
+              "item": {
+                "id": "TConstruct:materials",
+                "damage": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "提升修改次數",
+      "description": "獎勵未設定",
+      "x": 126,
+      "y": 194,
+      "icon": {
+        "id": "TConstruct:creativeModifier",
+        "nbt": "{TargetLock:\"Pickaxe\"}"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "description": "地獄之心升級",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:nether_star"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "鑽石+黃金磚",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:gold_block"
+              }
+            }
+          ]
+        },
+        {
+          "type": "DETECT",
+          "description": "金蘋果+鑽石磚",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:golden_apple",
+                "damage": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond_block"
+              }
+            }
+          ]
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "TConstruct:creativeModifier"
+        }
+      ]
+    }
+  ],
+  "reputation": []
+}

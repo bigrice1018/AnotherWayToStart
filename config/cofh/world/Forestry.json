@@ -1,0 +1,40 @@
+{
+    "pApatite": {
+        "template": "uniform",
+        "block":{
+            "name": "Forestry:resources",
+            "metadata": 0
+        },
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 61,
+        "maxHeight": 67,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "sApatite": {
+        "template": "uniform",
+        "block": {
+            "name": "Forestry:resources",
+            "metadata": 0
+        },
+        "clusterSize": 5,
+        "numClusters": 3,
+        "minHeight": 58,
+        "maxHeight": 70,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

@@ -1,0 +1,114 @@
+{
+	"sIron": {
+        "template": "uniform",
+        "block": "minecraft:iron_ore",
+        "clusterSize": 8,
+        "numClusters": 9,
+        "minHeight": 40,
+        "maxHeight": 58,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+	},	
+	"sGold": {
+        "template": "uniform",
+        "block": "minecraft:gold_ore",
+        "clusterSize": 6,
+        "numClusters": 4,
+        "minHeight": 10,
+        "maxHeight": 20,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"sRedstone": {
+        "template": "uniform",
+        "block": "minecraft:redstone_ore",
+        "clusterSize": 5,
+        "numClusters": 5,
+        "minHeight": 10,
+        "maxHeight": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },	
+	"sLapis": {
+        "template": "uniform",
+        "block": "minecraft:lapis_ore",
+        "clusterSize": 5,
+        "numClusters": 3,
+        "minHeight": 10,
+        "maxHeight": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"sEmerald": {
+        "template": "uniform",
+        "block": "minecraft:diamond_ore",
+        "clusterSize": 2,
+        "numClusters": 3,
+        "minHeight": 5,
+        "maxHeight": 15,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },		
+	"sDiamond": {
+        "template": "uniform",
+        "block": "minecraft:diamond_ore",
+        "clusterSize": 4,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 15,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"sCoal": {
+        "template": "uniform",
+        "block": "minecraft:coal_ore",
+        "clusterSize": 12,
+        "numClusters": 12,
+        "minHeight": 31,
+        "maxHeight": 100,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }	
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "comment": "",
+    "item": {
+      "comment": "",
+      "mod_id": "Growthcraft|Cellar",
+      "name": "grc.yeast",
+      "amount": 1,
+      "meta": 2
+    },
+    "input_fluid": {
+      "comment": "",
+      "name": "grc.grapewine1",
+      "amount": 40
+    },
+    "output_fluid": {
+      "comment": "",
+      "name": "grc.grapewine5",
+      "amount": 40
+    },
+    "residue": {
+      "pomace": 0.3,
+      "comment": "",
+      "mod_id": "minecraft",
+      "name": "dye",
+      "amount": 1,
+      "meta": 15
+    },
+    "time": 20
+  },
+  {
+    "comment": "",
+    "item": {
+      "comment": "",
+      "mod_id": "minecraft",
+      "name": "wheat",
+      "amount": 1,
+      "meta": 0
+    },
+    "input_fluid": {
+      "comment": "",
+      "name": "water",
+      "amount": 40
+    },
+    "output_fluid": {
+      "comment": "",
+      "name": "grc.hopale4",
+      "amount": 40
+    },
+    "residue": {
+      "pomace": 0.3,
+      "comment": "",
+      "mod_id": "minecraft",
+      "name": "dye",
+      "amount": 1,
+      "meta": 15
+    },
+    "time": 20
+  },
+  {
+    "comment": "",
+    "item": {
+      "comment": "",
+      "mod_id": "Growthcraft|Hops",
+      "name": "grc.hops",
+      "amount": 1,
+      "meta": 0
+    },
+    "input_fluid": {
+      "comment": "",
+      "name": "grc.hopale4",
+      "amount": 40
+    },
+    "output_fluid": {
+      "comment": "",
+      "name": "grc.hopale0",
+      "amount": 40
+    },
+    "residue": {
+      "pomace": 0.0,
+      "comment": "",
+      "mod_id": "minecraft",
+      "name": "dye",
+      "amount": 1,
+      "meta": 15
+    },
+    "time": 20
+  },
+  {
+    "comment": "",
+    "item": {
+      "comment": "",
+      "mod_id": "Growthcraft|Cellar",
+      "name": "grc.yeast",
+      "amount": 1,
+      "meta": 1
+    },
+    "input_fluid": {
+      "comment": "",
+      "name": "grc.hopale4",
+      "amount": 40
+    },
+    "output_fluid": {
+      "comment": "",
+      "name": "grc.lager0",
+      "amount": 40
+    },
+    "residue": {
+      "pomace": 0.0,
+      "comment": "",
+      "mod_id": "minecraft",
+      "name": "dye",
+      "amount": 1,
+      "meta": 15
+    },
+    "time": 20
+  },
+  {
+    "comment": "",
+    "item": {
+      "comment": "",
+      "mod_id": "Growthcraft|Rice",
+      "name": "grc.rice",
+      "amount": 1,
+      "meta": 0
+    },
+    "input_fluid": {
+      "comment": "",
+      "name": "water",
+      "amount": 25
+    },
+    "output_fluid": {
+      "comment": "",
+      "name": "grc.ricesake0",
+      "amount": 25
+    },
+    "residue": {
+      "pomace": 0.2,
+      "comment": "",
+      "mod_id": "minecraft",
+      "name": "dye",
+      "amount": 1,
+      "meta": 15
+    },
+    "time": 20
+  }
+]

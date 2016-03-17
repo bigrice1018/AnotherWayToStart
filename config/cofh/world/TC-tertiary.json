@@ -1,0 +1,116 @@
+{
+    "tAirInfused": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 1
+            },
+        "clusterSize": 1,
+        "numClusters": 4,
+        "minHeight": 37,
+        "maxHeight": 51,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"tFireInfused": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 2
+            },
+        "clusterSize": 1,
+        "numClusters": 4,
+        "minHeight": 37,
+        "maxHeight": 51,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },	
+    "tWaterInfused": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 3
+            },
+        "clusterSize": 1,
+        "numClusters": 4,
+        "minHeight": 37,
+        "maxHeight": 51,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },	
+    "tEarthInfused": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 4
+            },
+        "clusterSize": 1,
+        "numClusters": 4,
+        "minHeight": 37,
+        "maxHeight": 51,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"tOrderInfused": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 5
+            },
+        "clusterSize": 1,
+        "numClusters": 4,
+        "minHeight": 37,
+        "maxHeight": 51,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },	
+    "tEntropyInfused": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 6
+            },
+        "clusterSize": 1,
+        "numClusters": 4,
+        "minHeight": 37,
+        "maxHeight": 51,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }	
+}

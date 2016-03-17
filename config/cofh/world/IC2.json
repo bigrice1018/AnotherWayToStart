@@ -1,0 +1,40 @@
+{
+    "pUran": {
+        "template": "uniform",
+        "block":{
+            "name": "IC2:blockOreUran",
+            "metadata": 0
+        },
+        "clusterSize": 6,
+        "numClusters": 1,
+        "minHeight": 40,
+        "maxHeight": 48,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "sUran": {
+        "template": "uniform",
+        "block":{
+            "name": "IC2:blockOreUran",
+            "metadata": 0
+        },
+        "clusterSize": 5,
+        "numClusters": 2,
+        "minHeight": 35,
+        "maxHeight": 53,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

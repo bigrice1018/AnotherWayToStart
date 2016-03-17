@@ -1,0 +1,62 @@
+{
+   "pMarble": {
+        "template": "uniform",
+        "block": {
+            "name": "chisel:marble",
+            "metadata": 0
+        },
+        "clusterSize": 16,
+        "numClusters": 8,
+        "maxHeight": 49,
+		"minHeight": 46,
+        "maxVariance": 55,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"sMarble": {
+        "template": "uniform",
+        "block": {
+            "name": "chisel:marble",
+            "metadata": 0
+        },
+        "clusterSize": 12,
+        "numClusters": 8,
+        "maxHeight": 46,
+        "minHeight": 44,		
+        "maxVariance": 58,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"tMarble": {
+        "template": "uniform",
+        "block": {
+            "name": "chisel:marble",
+            "metadata": 0
+        },
+        "clusterSize": 14,
+        "numClusters": 6,
+        "maxHeight": 44,
+		"minHeight": 39,
+        "maxVariance": 60,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

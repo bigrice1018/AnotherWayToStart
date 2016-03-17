@@ -1,0 +1,59 @@
+{
+    "pSalt": {
+        "template": "uniform",
+        "block":{
+            "name": "harvestcraft:salt",
+            "metadata": 0
+        },
+        "clusterSize": 4,
+        "numClusters": 1,
+        "minHeight": 61,
+        "maxHeight": 65,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "sSalt": {
+        "template": "uniform",
+        "block": {
+            "name": "harvestcraft:salt",
+             "metadata": 0
+        },
+        "clusterSize": 3,
+        "numClusters": 2,
+        "minHeight": 58,
+        "maxHeight": 68,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"tSalt": {
+        "template": "uniform",
+        "block": {
+                "name": "harvestcraft:salt",
+                "metadata": 0
+        },
+        "clusterSize": 2,
+        "numClusters": 3,
+        "minHeight": 55,
+        "maxHeight": 71,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

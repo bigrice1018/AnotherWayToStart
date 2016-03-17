@@ -1,0 +1,102 @@
+{
+    "pAEQuartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "metadata": 0,
+                "weight": 95
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "metadata": 0,
+                "weight": 5
+            }
+        ],
+        "clusterSize": 6,
+        "numClusters": 3,
+        "minHeight": 36,
+        "maxHeight": 54,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"sAEQuartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "metadata": 0,
+                "weight": 95
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "metadata": 0,
+                "weight": 5
+            }
+        ],
+        "clusterSize": 4,
+        "numClusters": 4,
+        "minHeight": 35,
+        "maxHeight": 47,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"tAEQuartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "metadata": 0,
+                "weight": 95
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "metadata": 0,
+                "weight": 5
+            }
+        ],
+        "clusterSize": 3,
+        "numClusters": 5,
+        "minHeight": 33,
+        "maxHeight": 49,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"pAEQuartzC": {
+        "template": "uniform",
+        "block":{
+		    "name": "appliedenergistics2:tile.OreQuartzCharged",
+		    "metadata": 0
+		}, 
+        "clusterSize": 2,
+        "numClusters": 2,
+        "minHeight": 31,
+        "maxHeight": 37,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

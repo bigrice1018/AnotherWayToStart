@@ -1,0 +1,62 @@
+{
+    "dirt": {
+        "template": "uniform",
+        "block": {
+            "name": "minecraft:dirt",
+            "metadata": 0
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 10,
+        "numClusters": 6,
+        "minHeight": 40,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "gravel": {
+        "template": "uniform",
+        "block": {
+            "name": "minecraft:gravel",
+            "metadata": 0
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 10,
+        "minHeight": 40,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "clay": {
+        "template": "uniform",
+		 "block": {
+            "name": "minecraft:clay",
+            "metadata": 0
+        },
+		"material": "minecraft:stone",
+        "clusterSize": 5,
+        "numClusters": 3,
+        "minHeight": 40,
+        "maxHeight": 80,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

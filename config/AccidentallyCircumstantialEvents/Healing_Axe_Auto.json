@@ -1,0 +1,44 @@
+{
+	"events": [
+		{
+			"event_type": "TICK",
+			"ticks": "1200",
+			"tasks": [
+				{
+					"task_type": "POTION",
+					"target": "",
+					"target_type": "SELF",
+					"id": "23",
+					"duration": "1200",
+					"level": "2",
+					"conditions": [
+                             {
+                                  "condition_type": "INVENTORY",
+                                  "modid": "contenttweaker",
+                                  "name": "evolved_healing_axe",
+                                  "meta": "0",
+								  "ignoreMeta": "true"
+                             }
+                                  ]
+				},
+								{
+					"task_type": "POTION",
+					"target": "",
+					"target_type": "SELF",
+					"id": "11",
+					"duration": "1200",
+					"level": "2",
+					"conditions": [
+                             {
+                                  "condition_type": "INVENTORY",
+                                  "modid": "contenttweaker",
+                                  "name": "evolved_healing_axe",
+                                  "meta": "0",
+								  "ignoreMeta": "true"
+                             }
+                                  ]
+				}
+			]
+		}
+	]
+}

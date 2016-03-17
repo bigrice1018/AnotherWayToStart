@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"event_type": "CHAT",
+			"text": "!reload",
+			"tasks": [
+				{
+					"task_type": "CHAT",
+					"receiver_type": "ALL_PLAYERS",
+					"receiver": "",
+					"message": "[ACE - AWTS] INFO: The ACE event files have been reloaded."
+				},
+				{
+					"task_type": "RELOAD"
+				}
+			]
+		}
+	]
+}
