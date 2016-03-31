@@ -1,0 +1,3 @@
+<ore:gemDiamond>.remove(<IC2:itemPartIndustrialDiamond>);
+
+<ore:waferStone>.add(<ProjRed|Core:projectred.core.part>);

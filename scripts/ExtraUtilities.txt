@@ -1,0 +1,27 @@
+//Golden Pack
+recipes.removeShaped(<ExtraUtilities:golden_bag>, [[<ore:blockWoolWhite>, <ore:gemDiamond>, <ore:blockWoolWhite>], [<ore:ingotGold>, <ore:chestWood>, <ore:ingotGold>], [<ore:blockWoolWhite>, <ore:blockGold>, <ore:blockWoolWhite>]]);
+recipes.addShaped(<ExtraUtilities:golden_bag>, [[<minecraft:wool:4>, <minecraft:diamond_block>, <minecraft:wool:4>], [<ore:blockGold>, <ProjRed|Exploration:projectred.exploration.backpack:4>, <ore:blockGold>], [<minecraft:wool:4>, <ore:blockGold>, <minecraft:wool:4>]]);
+
+//QED Related (Obsidians)
+recipes.remove(<ExtraUtilities:decorativeBlock1:12>);
+recipes.remove(<ExtraUtilities:decorativeBlock1:1>);
+recipes.addShaped(<ExtraUtilities:decorativeBlock1:12>, [[<ore:burntQuartz>, <Avaritia:Resource>, <ore:burntQuartz>], [<Avaritia:Resource>, <ore:blockEnderObsidian>, <Avaritia:Resource>], [<ore:burntQuartz>, <Avaritia:Resource>, <ore:burntQuartz>]]);
+recipes.addShaped(<ExtraUtilities:decorativeBlock1:1> * 4, [[<ore:materialEnderPearl>, <ore:blockObsidian>, <ore:materialEnderPearl>], [<ore:blockObsidian>, <ore:materialEnderPearl>, <ore:blockObsidian>], [<ore:materialEnderPearl>, <ore:blockObsidian>, <ore:materialEnderPearl>]]);
+
+//Generators
+recipes.remove(<ExtraUtilities:generator:6>);
+recipes.remove(<ExtraUtilities:generator:10>);
+recipes.remove(<ExtraUtilities:generator:1>);
+recipes.remove(<ExtraUtilities:generator:2>);
+recipes.remove(<ExtraUtilities:generator:3>);
+recipes.remove(<ExtraUtilities:generator:4>);
+recipes.remove(<ExtraUtilities:generator:8>);
+recipes.remove(<ExtraUtilities:generator:6>);
+recipes.remove(<ExtraUtilities:generator:7>);
+
+//Angle Ring
+recipes.remove(<ExtraUtilities:angelRing:4>);
+recipes.remove(<ExtraUtilities:angelRing:3>);
+recipes.remove(<ExtraUtilities:angelRing:2>);
+recipes.remove(<ExtraUtilities:angelRing:1>);
+recipes.remove(<ExtraUtilities:angelRing>);
