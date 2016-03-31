@@ -1,0 +1,80 @@
+{
+	"pSulfur": {
+        "template": "uniform",
+        "block":{
+		    "name": "Railcraft:ore",
+		    "metadata": 0
+		}, 
+        "clusterSize": 4,
+        "numClusters": 1,
+        "minHeight": 10,
+        "maxHeight": 15,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"sSulfur": {
+        "template": "uniform",
+        "block":{
+		   "name": "Railcraft:ore",
+		   "metadata": 0
+		}, 
+        "clusterSize": 3,
+        "numClusters": 2,
+        "minHeight": 5,
+        "maxHeight": 20,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"pSaltpeter": {
+        "template": "uniform",
+        "block":{
+		    "name": "Railcraft:ore",
+		    "metadata": 1
+		}, 
+		"material": "minecraft:sand",
+        "clusterSize": 12,
+        "numClusters": 8,
+        "minHeight": 60,
+        "maxHeight": 80,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"sSaltpeter": {
+        "template": "uniform",
+        "block":{
+		   "name": "Railcraft:ore",
+		   "metadata": 1
+		}, 
+		"material": "minecraft:sand",
+        "clusterSize": 10,
+        "numClusters": 10,
+        "minHeight": 50,
+        "maxHeight": 100,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }	
+}

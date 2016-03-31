@@ -1,0 +1,207 @@
+{
+  "book": [
+    {
+      "features": [
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Welcome_Book/title.png",
+            "xPos": 12,
+            "yPos": 45,
+            "width": 204.0,
+            "height": 105.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Welcome To Another Way To Start",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF0000",
+            "xPos": 30,
+            "yPos": 22,
+            "width": 180.0,
+            "height": 13.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Version : Beta 1.2.0",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000FF",
+            "xPos": 66,
+            "yPos": 175,
+            "width": 178.0,
+            "height": 27.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Welcome_Book/BigRice1018.png",
+            "xPos": 204,
+            "yPos": 30,
+            "width": 90.0,
+            "height": 93.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Developers",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF0000",
+            "xPos": 290,
+            "yPos": 16,
+            "width": 55.0,
+            "height": 11.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Welcome_Book/livedomo520.png",
+            "xPos": 342,
+            "yPos": 36,
+            "width": 65.0,
+            "height": 65.0
+          }
+        },
+        {
+          "type": "FeatureImage",
+          "properties": {
+            "path": "Welcome_Book/yjo4nk45m3.png",
+            "xPos": 277,
+            "yPos": 34,
+            "width": 69.0,
+            "height": 67.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "BigRice1018        (BigRice)\n\n  All stuff",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFFF8C00",
+            "xPos": 220,
+            "yPos": 126,
+            "width": 74.0,
+            "height": 45.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "yjo4nk45m3 \n (Chifung)\n               \n    Logo \n Ingot Unify",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF0000CD",
+            "xPos": 282,
+            "yPos": 104,
+            "width": 78.0,
+            "height": 47.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "livedomo520    (Wendy)\n\n  Ore Gen",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FFF08080",
+            "xPos": 346,
+            "yPos": 104,
+            "width": 62.0,
+            "height": 43.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Also Big Thanks For All The Mod Authors For Their Cool Mods.",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF191970",
+            "xPos": 221,
+            "yPos": 177,
+            "width": 188.0,
+            "height": 33.0
+          }
+        }
+      ],
+      "pageName": ""
+    },
+    {
+      "features": [
+        {
+          "type": "FeatureItem",
+          "properties": {
+            "item": "contenttweaker:evolved_healing_axe 0",
+            "xPos": 371,
+            "yPos": 20,
+            "width": 25.0,
+            "height": 25.0
+          }
+        },
+        {
+          "type": "FeatureRecipe",
+          "properties": {
+            "ingredients": "minecraft:clay_ball:0:minecraft:clay_ball:0:Forestry:frameImpregnated:0:minecraft:clay_ball:0:minecraft:clay_ball:0",
+            "recipeType": "ShapedRecipes",
+            "item": "minecraft:potion 8229",
+            "xPos": 306,
+            "yPos": 286,
+            "width": 128.0,
+            "height": 128.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Another Way To Start is a Highly Customize Modpack.\n\nWhich I Brings My Ideas That Comes From Over 3 Years Of Playing Modded Minecraft.  \n\nWe Hope Every Player Will Have A Enjoyable Gameplay Experience In Another Way To Start.\n\nIf You Any Creative Ideas,\nFeel Free To Contact Me.\n\nQuests Is In Our Todo List.\nIt Will Be Release In About 1.3.0\n\n\n                      By DEV BigRice",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF800000",
+            "xPos": 27,
+            "yPos": 21,
+            "width": 177.0,
+            "height": 180.0
+          }
+        },
+        {
+          "type": "FeatureText",
+          "properties": {
+            "text": "Changes :\n\n\u003e Chat Modification \n\n\u003e Nether Ore Will Explode Even You Use Silk Touch.\n \n\u003e Evolved Healing Axe  \n \n\u003e Use A Unstable Ingot To Create A Twilight Portal.\n\n\u003e You Can Stack Some Of The \nIngot, Gems, Dust On The Ground.\n\nThere Are A Lot More To Let You To  Discover ~ \n",
+            "wrap": 0,
+            "size": 1.0,
+            "color": "FF6A5ACD",
+            "xPos": 222,
+            "yPos": 18,
+            "width": 174.0,
+            "height": 172.0
+          }
+        }
+      ],
+      "pageName": ""
+    }
+  ],
+  "uniqueName": "Welcome_Book",
+  "color": 16777215,
+  "showBackground": true,
+  "showArrows": true,
+  "showNumber": false,
+  "iconPass1": "",
+  "iconPass2": "",
+  "iconColorisePass1": false,
+  "iconColorisePass2": false,
+  "iconColorPass1": 0,
+  "iconColorPass2": 0,
+  "language": "en_US",
+  "displayName": "Welcome_Book",
+  "displayInCreative": true
+}

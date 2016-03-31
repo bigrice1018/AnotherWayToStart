@@ -1,0 +1,17 @@
+[
+  {
+    "address": "irc.esper.net",
+    "nick": "IGN|%USERNAME%",
+    "bot": {},
+    "theme": {},
+    "settings": {},
+    "channels": [
+      {
+        "name": "#AWTS",
+        "bot": {},
+        "theme": {},
+        "settings": {}
+      }
+    ]
+  }
+]

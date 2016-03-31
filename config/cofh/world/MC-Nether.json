@@ -1,0 +1,21 @@
+{
+    "quartz": {
+        "template": "uniform",
+        "block": {
+            "name": "minecraft:quartz_ore",
+            "metadata": 0
+        },
+		"material": "minecraft:netherrack",
+        "clusterSize": 12,
+        "numClusters": 18,
+        "minHeight": 10,
+        "maxHeight": 115,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    }
+}

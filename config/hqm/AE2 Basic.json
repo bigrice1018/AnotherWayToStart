@@ -1,0 +1,673 @@
+{
+  "name": "AE2 Basic",
+  "description": "This is lesson for everyone who was never played AE2.                  If you had played AE2,you can ignore it.",
+  "quests": [
+    {
+      "name": "Beginning!",
+      "description": "This way is help you how to start play this mod.That me show you how to use these.First of all,you should dig some ore which is you must be need. ",
+      "x": 19,
+      "y": 18,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 1
+      },
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Get certus crystal",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 1
+              },
+              "required": 2,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:quartz",
+          "amount": 2
+        },
+        {
+          "id": "minecraft:redstone",
+          "amount": 2
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 7,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "name": "Special crystal",
+      "description": "Alright,you did it.Now you need something special ore to craft item. Put these material down in water which is certus quartz,redstone dust and quartz.",
+      "x": 58,
+      "y": 14,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiMaterial",
+        "damage": 7
+      },
+      "prerequisites": [
+        "Beginning!"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Fluix crystal",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 7
+              },
+              "required": 6,
+              "precision": "ORE_DICTIONARY"
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 16,
+          "amount": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "appliedenergistics2:item.ToolCertusQuartzWrench"
+        },
+        {
+          "id": "appliedenergistics2:item.ToolNetherQuartzWrench"
+        },
+        {
+          "id": "ThermalExpansion:wrench"
+        }
+      ]
+    },
+    {
+      "name": "Start",
+      "description": "Well done,you get some material.Now you need power to charge crystal.   Which is your choice?",
+      "x": 92,
+      "y": 14,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockCharger"
+      },
+      "prerequisites": [
+        "Special crystal"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Charged something",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCharger"
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 16
+              },
+              "required": 12
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockEnergyCell",
+          "nbt": "{internalMaxPower:200000.0d,internalCurrentPower:200000.0d}"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "appliedenergistics2:tile.BlockEnergyAcceptor"
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockVibrationChamber"
+        }
+      ]
+    },
+    {
+      "name": "Storage",
+      "description": "Ok,you get power.You can run the system.Build something to use.Item will become data forms of data presentation.You need a drive to save them.Just like a computer right?",
+      "x": 123,
+      "y": 17,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockChest"
+      },
+      "prerequisites": [
+        "Start"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "ME drive",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockChest"
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Use storage cell",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 39
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 35
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemBasicStorageCell.1k"
+        }
+      ]
+    },
+    {
+      "name": "Get more fluix",
+      "description": "This crystal is not enough?This one can help you.Getting power on it and placing with water.It\u0027ll use more power,so you may use toggle bus to save energy.",
+      "x": 75,
+      "y": 44,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockQuartzGrowthAccelerator"
+      },
+      "prerequisites": [
+        "Special crystal"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Get seeds",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemCrystalSeed",
+                "nbt": "{progress:0}"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemCrystalSeed",
+                "damage": 1200,
+                "nbt": "{progress:1200}"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemCrystalSeed",
+                "damage": 600,
+                "nbt": "{progress:600}"
+              },
+              "required": 2
+            },
+            {
+              "item": {
+                "id": "minecraft:sand"
+              },
+              "required": 6
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Growth accelerated",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockQuartzGrowthAccelerator"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 10,
+          "amount": 10
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 12,
+          "amount": 10
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 11,
+          "amount": 10
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "appliedenergistics2:tile.BlockQuartzGrowthAccelerator",
+          "amount": 3
+        },
+        {
+          "id": "appliedenergistics2:item.ToolMassCannon",
+          "nbt": "{@0:384,internalMaxPower:200000.0d,ic:384,it:1s,#0:{Craft:0b,Cnt:384L,id:4355s,Count:0b,Damage:6s,Req:0L},internalCurrentPower:200000.0d}"
+        }
+      ]
+    },
+    {
+      "name": "Logistics",
+      "description": "Great!Your system have item.Now,it\u0027s time to let system work.you can input and output somethihg in your system.",
+      "x": 200,
+      "y": 18,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 260
+      },
+      "prerequisites": [
+        "Wafer imprint"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "ME I/O",
+          "longDescription": "A task where the player has to craft",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 260
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 240
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Me interface",
+          "longDescription": "You can imagine it\u0027s a system\u0027s face.Not only input but also output by change direction with wrench.",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockInterface"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 16,
+          "amount": 6
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 160
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "name": "Terminal",
+      "x": 239,
+      "y": 18,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 380
+      },
+      "prerequisites": [
+        "Logistics"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Get panel",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 180
+              },
+              "required": 3,
+              "precision": "FUZZY"
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Use terminal",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 480
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 340
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 360
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 44,
+          "amount": 6
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 43,
+          "amount": 6
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 180,
+          "amount": 3
+        },
+        {
+          "id": "appliedenergistics2:tile.BlockQuartzGlass",
+          "amount": 12
+        }
+      ]
+    },
+    {
+      "name": "Wafer imprint",
+      "x": 163,
+      "y": 15,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockInscriber"
+      },
+      "prerequisites": [
+        "Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "description": "Get press",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 19
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 15
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 13
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiMaterial",
+                "damage": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Get processor",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockInscriber"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 22,
+          "amount": 2
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 24,
+          "amount": 2
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 23,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "appliedenergistics2:tile.BlockInscriber",
+          "amount": 2
+        },
+        {
+          "id": "appliedenergistics2:item.ToolColorApplicator",
+          "nbt": "{@0:64,@1:64,@2:64,color:{id:4354s,Count:64b,Damage:13s},internalMaxPower:20000.0d,ic:192,it:3s,#0:{Craft:0b,Cnt:64L,id:4354s,Count:0b,Damage:4s,Req:0L},#1:{Craft:0b,Cnt:64L,id:4354s,Count:0b,Damage:9s,Req:0L},internalCurrentPower:20000.0d,#2:{Craft:0b,Cnt:64L,id:4354s,Count:0b,Damage:13s,Req:0L}}"
+        }
+      ]
+    },
+    {
+      "name": "Find press",
+      "x": 181,
+      "y": 44,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockSkyCompass"
+      },
+      "prerequisites": [
+        "Wafer imprint"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Compess",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockSkyCompass"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:tile.BlockSkyStone",
+          "damage": 1,
+          "amount": 12
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "appliedenergistics2:tile.BlockSkyChest"
+        },
+        {
+          "id": "appliedenergistics2:item.ToolPortableCell",
+          "nbt": "{internalMaxPower:20000.0d,internalCurrentPower:20000.0d}"
+        }
+      ]
+    },
+    {
+      "name": "Ground into dust",
+      "x": 42,
+      "y": 44,
+      "icon": {
+        "id": "appliedenergistics2:tile.BlockGrinder"
+      },
+      "prerequisites": [
+        "Beginning!"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCrank"
+              }
+            },
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockGrinder"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 3,
+          "amount": 6
+        },
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 2,
+          "amount": 6
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "minecraft:golden_axe"
+        },
+        {
+          "id": "ThermalFoundation:tool.axeSilver"
+        }
+      ]
+    },
+    {
+      "name": "Channel",
+      "x": 223,
+      "y": 45,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemMultiPart",
+        "damage": 56
+      },
+      "prerequisites": [
+        "Logistics"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Check channel count",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ItemMultiPart",
+                "damage": 56
+              },
+              "required": 2
+            }
+          ]
+        },
+        {
+          "type": "CRAFT",
+          "description": "Check power and device",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:item.ToolNetworkTool"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiPart",
+          "damage": 56,
+          "amount": 8
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "appliedenergistics2:item.ToolChargedStaff"
+        },
+        {
+          "id": "appliedenergistics2:item.ToolCertusQuartzCuttingKnife"
+        }
+      ]
+    },
+    {
+      "name": "Set storage cell",
+      "x": 132,
+      "y": 46,
+      "icon": {
+        "id": "appliedenergistics2:item.ItemCreativeStorageCell"
+      },
+      "prerequisites": [
+        "Storage"
+      ],
+      "tasks": [
+        {
+          "type": "CRAFT",
+          "description": "Workbench",
+          "items": [
+            {
+              "item": {
+                "id": "appliedenergistics2:tile.BlockCellWorkbench"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "appliedenergistics2:item.ItemMultiMaterial",
+          "damage": 22,
+          "amount": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "appliedenergistics2:item.ItemViewCell"
+        },
+        {
+          "id": "appliedenergistics2:item.ItemBasicStorageCell.1k"
+        }
+      ]
+    }
+  ],
+  "reputation": []
+}

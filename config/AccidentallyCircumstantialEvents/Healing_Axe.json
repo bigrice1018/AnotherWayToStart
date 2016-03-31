@@ -1,0 +1,47 @@
+{
+	"events": [
+		{
+			"event_type": "INTERACT",
+			"action": "LEFT",
+			"issuer": "ALL_PLAYERS",
+			"modid": "minecraft",
+			"name": "0",
+			"meta": "0",
+			"ignoreBlock": "true",
+			"tasks": [
+				{
+					"task_type": "POTION",
+					"target": "",
+					"target_type": "SELF",
+					"id": "4",
+					"duration": "40",
+					"level": "40",
+					"conditions": [
+                             {
+                                  "condition_type": "USING",
+                                  "modid": "contenttweaker",
+                                  "name": "evolved_healing_axe",
+                                  "meta": "0"
+                             }
+                                  ]
+				},
+				{
+					"task_type": "POTION",
+					"target": "",
+					"target_type": "SELF",
+					"id": "10",
+					"duration": "15",
+					"level": "3",
+					"conditions": [
+                             {
+                                  "condition_type": "USING",
+                                  "modid": "contenttweaker",
+                                  "name": "evolved_healing_axe",
+                                  "meta": "0"
+                             }
+                                  ]
+				}
+			]
+		}
+	]
+}

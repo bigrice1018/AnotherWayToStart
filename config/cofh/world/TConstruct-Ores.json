@@ -1,0 +1,99 @@
+{
+	"pAluminium": {
+        "template": "uniform",
+        "block": {
+            "name": "TConstruct:SearedBrick",
+            "metadata": 5
+        },
+        "clusterSize": 7,
+        "numClusters": 2,
+        "minHeight": 54,
+        "maxHeight": 59,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+	},	
+	"sAluminium": {
+        "template": "uniform",
+        "block": {
+            "name": "TConstruct:SearedBrick",
+            "metadata": 5
+        },
+        "clusterSize": 6,
+        "numClusters": 3,
+        "minHeight": 47,
+        "maxHeight": 64,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+	},		
+	"Ardite": {
+        "template": "uniform",
+        "block": [
+            {
+			   "name": "TConstruct:SearedBrick",
+			   "metadata": 2,
+			   "weight":80
+			},
+            {
+			   "name": "TConstruct:SearedBrick",
+			   "metadata": 1,
+			   "weight":20
+			}
+        ],
+		"material": "minecraft:netherrack",
+        "clusterSize": 2,
+        "numClusters": 1,		
+        "minHeight": 11,
+        "maxHeight": 80,
+        "maxHeight": 40,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+	"Cobalt": {
+        "template": "uniform",
+        "block": [
+            {
+			   "name": "TConstruct:SearedBrick",
+			   "metadata": 1,
+			   "weight":80
+			},
+            {
+			   "name": "TConstruct:SearedBrick",
+			   "metadata": 2,
+			   "weight":20
+			}
+        ],
+		"material": "minecraft:netherrack",
+        "clusterSize": 2,
+        "numClusters": 1,
+        "minHeight": 70,
+        "maxHeight": 40,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    }
+}

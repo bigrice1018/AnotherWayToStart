@@ -1,0 +1,40 @@
+{
+	"pDilithium": {
+        "template": "uniform",
+        "block":{
+		   "name": "mo:dilithium_ore",
+           "metadata": 0
+		}, 
+        "clusterSize": 6,
+        "numClusters": 2,
+        "minHeight": 35,
+        "maxHeight": 50,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"pTritanium": {
+        "template": "uniform",
+        "block":{
+		    "name": "mo:tritanium_ore",
+            "metadata": 0
+		}, 
+        "clusterSize": 4,
+        "numClusters": 1,
+        "minHeight": 10,
+        "maxHeight": 25,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

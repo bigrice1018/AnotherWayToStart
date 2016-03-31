@@ -1,0 +1,18 @@
+{
+	"zCoal": {
+        "template": "normal",
+        "block": "minecraft:coal_ore",
+        "clusterSize": 6,
+        "numClusters": 8,
+        "meanHeight": 1,
+        "maxVariance": 130,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

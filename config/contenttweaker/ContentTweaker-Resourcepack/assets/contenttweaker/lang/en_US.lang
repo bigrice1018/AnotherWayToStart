@@ -1,0 +1,88 @@
+tile.HEET Ore.name=HEET Ore
+tile.Unblanaced Ore.name=Unblanaced Ore
+tile.AWTS Troll Ore.name=AWTS Troll Ore
+
+item.bigrice.name=BIGRICE
+item.chifung.name=Chifung
+item.wendy.name=Wendy
+item.trusted.name=*Trusted User*
+
+item.manyullyn_pickaxe.name=Manyullyn Pickaxe
+
+item.darkSteel_Base.name=Dark Steel Base
+item.electricalSteel_Base.name=Electrical Steel Base
+item.energeticAlloy_Base.name=Energetic Alloy Base
+
+item.de_wyvern_armor_part.name=Wyvern Armor Part
+
+item.diamond_plate.name=Unstable Diamond Plate
+item.redstone_plate.name=Restone Plate
+item.quartz_plate.name=Quartz Plate
+item.lapis_plate.name=Lapis Plate
+item.lead_plate.name=Lead Plate
+item.emerald_plate.name=Emerald Plate
+
+item.endless_dust.name=Endless Dust
+item.enchanced_nether_star.name=Enchanced Nether Star
+item.philosopher_stone.name=Philosopher's Stone
+item.rod_of_greedy.name=Rod Of Greedy
+item.healing_core.name=Healing Core
+
+item.gcc_battery.name=Unchargeable Battery
+item.ic2_rebattery.name=Unchargeable RE-Battery
+item.ic2_reAdvBat.name=Unchargeable Advanced RE-Battery
+item.mek_energytablet.name=Unchargeable Energy Tablet
+
+item.sausageinbreadItemx1.name=Compressed Sausageinbread
+item.goldenapplex1.name=Compressed Golden Apple
+item.heartybreakfastItemx1.name=Compressed Hearty Breakfast
+item.beetburgerItemx1.name=Compressed Beet Burger
+item.apple_diamondx1.name=Compressed Diamond Apple
+item.tripletreatx1.name=Compressed Tripletreat
+item.pizzaItemx1.name=Compressed Pizza
+item.beefwellingtonItemx1.name=Compressed Beef Wellington
+item.delightedmealItemx1.name=Compressed Delighted Meal
+item.epicbaconItemx1.name=Compressed Epic Beacon
+
+item.sausageinbreadItemx2.name=Double Compressed Sausageinbread
+item.goldenapplex2.name=Double Compressed Golden Apple
+item.heartybreakfastItemx2.name=Double Compressed Hearty Breakfast
+item.beetburgerItemx2.name=Double Compressed Beet Burger
+item.apple_diamondx2.name=Double Compressed Diamond Apple
+item.tripletreatx2.name=Double Compressed Tripletreat
+item.pizzaItemx2.name=Double Compressed Pizza
+item.beefwellingtonItemx2.name=Double Compressed Beef Wellington
+item.delightedmealItemx2.name=Double Compressed Delighted Meal
+item.epicbaconItemx2.name=Double Compressed Epic Beacon
+
+item.sausageinbreadItemx3.name=Triple Compressed Sausageinbread
+item.goldenapplex3.name=Triple Compressed Golden Apple
+item.heartybreakfastItemx3.name=Triple Compressed Hearty Breakfast
+item.beetburgerItemx3.name=Triple Compressed Beet Burger
+item.apple_diamondx3.name=Triple Compressed Diamond Apple
+item.tripletreatx3.name=Triple Compressed Tripletreat
+item.pizzaItemx3.name=Triple Compressed Pizza
+item.beefwellingtonItemx3.name=Triple Compressed Beef Wellington
+item.delightedmealItemx3.name=Triple Compressed Delighted Meal
+item.epicbaconItemx3.name=Triple Compressed Epic Beacon
+
+item.ragged_healing_axe.name=Ragged Healing Axe
+item.inactived_healing_axe.name=Inactived Healing Axe
+item.actived_healing_axe.name=Actived Healing Axe
+item.mana_infusion_healing_axe.name=Mana Healing Axe
+item.elven_mana_infusion_healing_axe.name=Elven Mana Healing Axe
+item.bloody_elven_mana_infusion_healing_axe.name=Bloody Elven Mana Healing Axe
+item.evolved_healing_axe.name=Evolved Healing Axe
+
+item.universalcableultimate_core.name=Ultimate Universal Cable Core
+item.universalcableultimate_horizontal_part.name=Ultimate Universal Cable Horizontal Part
+item.universalcableultimate_vertical_part.name=Ultimate Universal Cable Vertical Part
+
+item.awts_troll_ingot.name=AWTS Troll Ingot
+item.magical_awts_troll_ingot.name=Magical AWTS Troll Ingot
+item.unsatisify_ingot.name=Unsatisify Ingot
+item.satisify_ingot.name=Satisify Ingot
+item.unbalanced_ingot.name=Unbalanced Ingot
+item.balanced_ingot.name=Balanced Ingot
+item.heet_ingot.name=HEET Ingot
+item..name=

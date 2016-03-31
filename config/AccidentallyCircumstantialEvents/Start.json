@@ -1,0 +1,117 @@
+{
+    "events":
+            [
+                {
+                "event_type": "JOIN_WORLD",
+                "noDeathDim": "true",
+                "joinOneEver": "true",
+                "target": "ALL_PLAYERS",
+                "tasks": [
+					{
+                    "task_type": "INVENTORY_ADD",
+                    "target_type": "SELF",
+                    "target": "",
+                    "modid": "Enchiridion2",
+                    "name": "book",
+                    "meta": "0",
+                    "count": "1",
+					"nbt" : "{identifier:Welcome_Book}"
+                    },
+					{
+                    "task_type": "INVENTORY_ADD",
+                    "target_type": "SELF",
+                    "target": "",
+                    "modid": "TConstruct",
+                    "name": "helmetWood",
+                    "meta": "0",
+                    "count": "1"
+                    },
+					{
+                    "task_type": "INVENTORY_ADD",
+                    "target_type": "SELF",
+                    "target": "",
+                    "modid": "RArm",
+                    "name": "ItemTuberousArmor.Chestplate",
+                    "meta": "0",
+                    "count": "1"
+                    },
+					{
+                    "task_type": "INVENTORY_ADD",
+                    "target_type": "SELF",
+                    "target": "",
+                    "modid": "TConstruct",
+                    "name": "leggingsWood",
+                    "meta": "0",
+                    "count": "1"
+                    },
+					{
+                    "task_type": "INVENTORY_ADD",
+                    "target_type": "SELF",
+                    "target": "",
+                    "modid": "TConstruct",
+                    "name": "bootsWood",
+                    "meta": "0",
+                    "count": "1"
+                    },	
+					{
+                    "task_type": "INVENTORY_ADD",
+                    "target_type": "SELF",
+                    "target": "",
+                    "modid": "TConstruct",
+                    "name": "pickaxeHead",
+                    "meta": "13",
+                    "count": "1"
+                    },
+					{
+                    "task_type": "INVENTORY_ADD",
+                    "target_type": "SELF",
+                    "target": "",
+                    "modid": "minecraft",
+                    "name": "planks",
+                    "meta": "0",
+                    "count": "16"
+                    },
+					{
+                    "task_type": "INVENTORY_ADD",
+                    "target_type": "SELF",
+                    "target": "",
+                    "modid": "minecraft",
+                    "name": "torch",
+                    "meta": "0",
+                    "count": "16"
+                    },
+					{
+                    "task_type": "INVENTORY_ADD",
+                    "target": "BigRice1018",
+                    "target_type": "ONE_PLAYER",
+                    "modid": "contenttweaker",
+                    "name": "bigrice",
+                    "meta": "0",
+                    "count": "1"
+                    },
+					{
+                    "task_type": "INVENTORY_ADD",
+                    "target": "yjo4nk45m3",
+                    "target_type": "ONE_PLAYER",
+                    "modid": "contenttweaker",
+                    "name": "chifung",
+                    "meta": "0",
+                    "count": "1"
+                    },
+					{
+                    "task_type": "INVENTORY_ADD",
+                    "target": "livedomo520",
+                    "target_type": "ONE_PLAYER",
+                    "modid": "contenttweaker",
+                    "name": "wendy",
+                    "meta": "0",
+                    "count": "1"
+                    },
+                    {
+                    "task_type": "COMMAND",
+                    "command": "/hqm quest"
+                    }
+						]
+				}
+			]
+}
