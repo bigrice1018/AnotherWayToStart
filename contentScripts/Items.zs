@@ -13,7 +13,7 @@ mods.content.Item.registerItem("Electrical Steel Base", "electricalSteel_Base", 
 mods.content.Item.registerItem("Energetic Alloy Base", "energeticAlloy_Base", "energeticAlloy_Base", "awts");
 
 //Parts
-mods.content.Item.registerItem("Wyvern Armor Part", "de_wyvern_armor_par64", "de_wyvern_armor_part", "awts");
+mods.content.Item.registerItem("Wyvern Armor Part", "de_wyvern_armor_part", "de_wyvern_armor_part", "awts");
 
 //Plates
 mods.content.Item.registerItem("Diamond Plate", "diamond_plate", "diamond_plate", "awts");
