@@ -8,3 +8,4 @@ vanilla.loot.removeChestLoot("strongholdLibrary", <ExtraUtilities:divisionSigil>
 vanilla.loot.removeChestLoot("villageBlacksmith", <RandomThings:ingredient:4>);
 vanilla.loot.removeChestLoot("dungeonChest", <IC2:itemOreIridium>);
 vanilla.loot.removeChestLoot("dungeonChest", <Botania:manaResource>);
+vanilla.loot.removeChestLoot("dungeonChest", <ore:ingotThaumium>);

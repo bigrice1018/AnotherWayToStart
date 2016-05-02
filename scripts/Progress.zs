@@ -1,15 +1,20 @@
+import mods.nei.NEI;
+
 //Manasteel (Iron to Steel)
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
 mods.botania.ManaInfusion.addInfusion(<Botania:manaResource>, <ore:ingotSteel>, 5000);
 mods.botania.ManaInfusion.addConjuration(<Botania:manaResource>, <ore:ingotIron>, 5000);
 
 mods.botania.ManaInfusion.removeRecipe(<Botania:storage>);
-mods.botania.ManaInfusion.addInfusion(<Botania:storage>, <EnderIO:blockIngotStorage:6>, 5000);
+mods.botania.ManaInfusion.addInfusion(<Botania:storage>, <ore:blockSteel>, 5000);
 mods.botania.ManaInfusion.addConjuration(<Botania:storage>, <ore:blockIron>, 5000);
 
 //Start Thaumcraft
 recipes.remove(<Thaumcraft:WandCap>);
-recipes.addShaped(<Thaumcraft:WandCap>, [[<ThermalFoundation:material:8>, <Botania:manaResource:5>, <ThermalFoundation:material:8>], [<ore:nuggetIron>, null, <ore:nuggetIron>]]);
+recipes.addShaped(<Thaumcraft:WandCap>, [[<ore:nuggetIron>, <Botania:manaResource:5>, <ore:nuggetIron>], [<ore:nuggetIron>, null, <ore:nuggetIron>]]);
+  //Thaumium
+mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:2>);
+mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:ItemResource:2>, <Botania:manaResource>, "praecantatio 4");
 
 //Blood Magic
   //Start
@@ -18,6 +23,13 @@ recipes.addShaped(<AWWayofTime:Altar>, [[<ore:stone>, null, <ore:stone>], [<ore:
   //Tweak
 recipes.remove(<AWWayofTime:bloodMagicBaseItems:1>);
 recipes.addShaped(<AWWayofTime:bloodMagicBaseItems:1>, [[<ore:glass>, <ore:ingotGold>, <ore:glass>], [<ore:ingotIron>, <AWWayofTime:bloodMagicBaseAlchemyItems:4>, <minecraft:iron_ingot>], [<ore:glass>, <ore:ingotGold>, <minecraft:glass>]]);
+  //Orb
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:weakBloodOrb>);
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:magicianBloodOrb>);
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:apprenticeBloodOrb>);
+mods.bloodmagic.Altar.addRecipe(<Botania:manaResource:2>, <AWWayofTime:weakBloodOrb>, 1, 2500, 2, 1);
+mods.bloodmagic.Altar.addRecipe(<Botania:manaResource:5>, <AWWayofTime:magicianBloodOrb>, 3, 25000, 20, 20);
+mods.bloodmagic.Altar.addRecipe(<Botania:manaResource:8>, <AWWayofTime:apprenticeBloodOrb>, 2, 5000, 5, 5);
 
 //Gear Lock
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:gearCast>);
@@ -36,10 +48,13 @@ recipes.remove(<ThermalFoundation:material:129>);
 recipes.remove(<ThermalFoundation:material:128>);
 recipes.remove(<ThermalFoundation:material:13>);
 recipes.remove(<ThermalFoundation:material:12>);
+recipes.remove(<BuildCraft|Core:diamondGearItem>);
+mods.immersiveengineering.MetalPress.addRecipe(<BuildCraft|Core:diamondGearItem>, <minecraft:diamond>, <ImmersiveEngineering:mold:1>, 2400, 4);
+recipes.remove(<EnderIO:itemMachinePart:1>);
+mods.immersiveengineering.MetalPress.addRecipe(<EnderIO:itemMachinePart:1>, <ExtraUtilities:cobblestone_compressed>, <ImmersiveEngineering:mold:1>, 2400, 2);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:140>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:139>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:138>);
-mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:137>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:136>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:135>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:134>);
@@ -47,8 +62,6 @@ mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:133>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:132>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:131>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:130>);
-mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:129>);
-mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:128>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:13>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:12>);
 
@@ -105,13 +118,17 @@ recipes.removeShaped(<LogisticsPipes:item.PipeLogisticsChassiMk4>, [[<ore:ingotI
 recipes.remove(<ImmersiveEngineering:mold:2>);
 recipes.remove(<ImmersiveEngineering:mold:1>);
 recipes.remove(<ImmersiveEngineering:mold>);
-mods.tconstruct.Casting.addTableRecipe(<ImmersiveEngineering:mold>, <liquid:steel.molten> * 576, <TConstruct:heavyPlate:12>, true, 80);
-mods.tconstruct.Casting.addTableRecipe(<ImmersiveEngineering:mold:1>, <liquid:steel.molten> * 576, <ExtraTrees:misc:3>, true, 80);
-mods.tconstruct.Casting.addTableRecipe(<ImmersiveEngineering:mold:2>, <liquid:steel.molten> * 576, <TConstruct:toolRod:12>, true, 80);
+mods.tconstruct.Casting.addBasinRecipe(<ImmersiveEngineering:mold>, <liquid:steel.molten> * 576, <TConstruct:heavyPlate:12>, true, 80);
+mods.tconstruct.Casting.addBasinRecipe(<ImmersiveEngineering:mold:1>, <liquid:steel.molten> * 576, <ExtraTrees:misc:3>, true, 80);
+mods.tconstruct.Casting.addBasinRecipe(<ImmersiveEngineering:mold:2>, <liquid:steel.molten> * 576, <TConstruct:toolRod:12>, true, 80);
 
 //Lock Railcraft
 recipes.remove(<Railcraft:machine.alpha:7>);
+NEI.hide(<Railcraft:machine.alpha:7>);
+<ImmersiveEngineering:stoneDecoration:1>.displayName = "Coke Brick (Coke Oven Brick)";
 recipes.remove(<Railcraft:machine.alpha:12>);
+NEI.hide(<Railcraft:machine.alpha:12>);
+<ImmersiveEngineering:stoneDecoration:2>.displayName = "Blast Brick (Blast Furnace Brick)";
 
 //Mekanism
 recipes.remove(<Mekanism:PartTransmitter>);

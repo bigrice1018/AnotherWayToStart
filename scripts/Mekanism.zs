@@ -17,7 +17,7 @@ recipes.addShaped(<MekanismGenerators:ReactorGlass> * 4, [[null, <MekanismGenera
 
 //Evaporation Tower
 recipes.remove(<Mekanism:BasicBlock2>);
-recipes.addShaped(<Mekanism:BasicBlock2> * 2, [[<ore:ingotCopper>, <Forestry:ingotCopper>, <Forestry:ingotCopper>], [<IC2:itemPartAlloy>, <Mekanism:BasicBlock:9>, <IC2:itemPartAlloy>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
+recipes.addShaped(<Mekanism:BasicBlock2> * 2, [[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>], [<IC2:itemPartAlloy>, <Mekanism:BasicBlock:9>, <IC2:itemPartAlloy>], [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]]);
 
 //Remove
 recipes.remove(<Mekanism:WalkieTalkie>);

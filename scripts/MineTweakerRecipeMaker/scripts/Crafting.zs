@@ -12,15 +12,29 @@
 
 // ================================================================================
 //#MARKER REMOVE
-
-
-
+recipes.remove(<quantumflux:battlesuit_boots:1>);
+recipes.remove(<quantumflux:battlesuit_leggings:1>);
+recipes.remove(<quantumflux:battlesuit_helmet:1>);
+recipes.remove(<quantumflux:battlesuit_plate>);
+recipes.remove(<quantumflux:battlesuit_chestplate:1>);
+recipes.remove(<Mekanism:ControlCircuit:2>);
+recipes.remove(<Mekanism:ControlCircuit:1>);
+recipes.remove(<ExtraUtilities:extractor_base>);
+recipes.remove(<ExtraUtilities:extractor_base:6>);
+recipes.remove(<ExtraUtilities:extractor_base:6>);
+recipes.remove(<ExtraUtilities:extractor_base>);
+recipes.remove(<ExtraUtilities:decorativeBlock1:11>);
+recipes.remove(<ExtraUtilities:endConstructor>);
+recipes.remove(<ExtraUtilities:endConstructor:2>);
+recipes.remove(<ExtraUtilities:decorativeBlock1:1>);
+recipes.remove(<ExtraUtilities:angelRing:*>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<ExtraUtilities:golden_bag>, [[<ore:blockWool>, <ore:gemDiamond>, <ore:blockWool>], [<ore:ingotGold>, <ore:chestWood>, <ore:ingotGold>], [<ore:blockWool>, <ore:blockGold>, <ore:blockWool>]]);
 
 // ================================================================================
 //#MARKER ADD
@@ -30,4 +44,41 @@
 
 // ================================================================================
 //#MARKER ADD SHAPED
-
+recipes.addShaped(<ImmersiveEngineering:material:15>, [[null, null, <ore:ingotSteel>], [null, <ore:ingotSteel>, null], [<ore:ingotSteel>, null, null]]);
+recipes.addShaped(<quantumflux:battlesuit_leggings:1>, [[<quantumflux:upgradeToken>, <quantumflux:battlesuit_leggings>], [<RArm:ItemEnderiumArmor.Leggings>, null]]);
+recipes.addShaped(<quantumflux:battlesuit_helmet:1>, [[<quantumflux:upgradeToken>, <quantumflux:battlesuit_helmet>], [<RArm:ItemEnderiumArmor.Helm>, null]]);
+recipes.addShaped(<quantumflux:battlesuit_chestplate:1>, [[<quantumflux:upgradeToken>, <quantumflux:battlesuit_chestplate>], [<simplyjetpacks:jetpacksEIO:5>, null]]);
+recipes.addShaped(<quantumflux:battlesuit_boots:1>, [[<quantumflux:upgradeToken>, <quantumflux:battlesuit_boots>], [<RArm:ItemEnderiumArmor.Boots>, null]]);
+recipes.addShaped(<quantumflux:battlesuit_leggings>, [[<quantumflux:battlesuit_plate>, <quantumflux:battlesuit_plate>, <quantumflux:battlesuit_plate>], [<quantumflux:battlesuit_plate>, null, <quantumflux:battlesuit_plate>], [<quantumflux:battlesuit_plate>, null, <quantumflux:battlesuit_plate>]]);
+recipes.addShaped(<quantumflux:battlesuit_helmet>, [[<quantumflux:battlesuit_plate>, <quantumflux:battlesuit_plate>, <quantumflux:battlesuit_plate>], [<quantumflux:battlesuit_plate>, null, <quantumflux:battlesuit_plate>]]);
+recipes.addShaped(<quantumflux:battlesuit_boots>, [[<quantumflux:battlesuit_plate>, <quantumflux:battlesuit_plate>], [<quantumflux:battlesuit_plate>, <quantumflux:battlesuit_plate>]]);
+recipes.addShaped(<quantumflux:battlesuit_chestplate>, [[<quantumflux:battlesuit_plate>, null, <quantumflux:battlesuit_plate>], [<quantumflux:battlesuit_plate>, <quantumflux:battlesuit_plate>, <quantumflux:battlesuit_plate>], [<quantumflux:battlesuit_plate>, <quantumflux:battlesuit_plate>, <quantumflux:battlesuit_plate>]]);
+recipes.addShaped(<quantumflux:battlesuit_plate> * 2, [[<ore:ingotMangalloy>, <quantumflux:energizedCrystal>, <ore:ingotMangalloy>], [<quantumflux:energizedCrystal>, <ore:ingotTitanium>, <quantumflux:energizedCrystal>], [<ore:ingotMangalloy>, <quantumflux:energizedCrystal>, <ore:ingotMangalloy>]]);
+recipes.addShaped(<Mekanism:ControlCircuit:3>, [[null, <Mekanism:AtomicAlloy>, null], [<Mekanism:AtomicAlloy>, <Mekanism:ControlCircuit:2>, <Mekanism:AtomicAlloy>], [null, <Mekanism:AtomicAlloy>, null]]);
+recipes.addShaped(<Mekanism:ControlCircuit:2>, [[null, <Mekanism:ReinforcedAlloy>, null], [<Mekanism:ReinforcedAlloy>, <Mekanism:ControlCircuit:1>, <Mekanism:ReinforcedAlloy>], [null, <Mekanism:ReinforcedAlloy>, null]]);
+recipes.addShaped(<Mekanism:ControlCircuit:1>, [[null, <ore:alloyAdvanced>, null], [<ore:alloyAdvanced>, <Mekanism:ControlCircuit>, <ore:alloyAdvanced>], [null, <ore:alloyAdvanced>, null]]);
+recipes.addShaped(<contenttweaker:lapis_plate>, [[<ore:blockLapis>, <ore:blockLapis>, <ore:blockLapis>], [<ore:ingotUnstable>, <ore:ingotUnstable>, <ore:ingotUnstable>], [<ore:blockLapis>, <ore:blockLapis>, <ore:blockLapis>]]);
+recipes.addShaped(<ExtraUtilities:extractor_base> * 4, [[null, <ThermalDynamics:ThermalDynamics_32:4>, null], [<EnderIO:blockIngotStorage:3>, <ore:blockEnder>, <EnderIO:blockIngotStorage:3>], [<ore:ingotSteel>, <IronChest:BlockIronChest>, <ore:ingotSteel>]]);
+recipes.addShaped(<ExtraUtilities:extractor_base:6> * 4, [[null, <ThermalDynamics:ThermalDynamics_16:6>, null], [<contenttweaker:lapis_plate>, <ore:blockEnder>, <contenttweaker:lapis_plate>], [<ore:ingotSteel>, <ExtraUtilities:drum>, <ore:ingotSteel>]]);
+recipes.addShaped(<ExtraUtilities:golden_bag>, [[<ore:blockWoolYellow>, <ore:gemDiamond>, <ore:blockWoolYellow>], [<ore:ingotGold>, <ProjRed|Exploration:projectred.exploration.backpack:4>, <ore:ingotGold>], [<ore:blockWoolYellow>, <ore:blockGold>, <ore:blockWoolYellow>]]);
+recipes.addShaped(<ExtraUtilities:decorativeBlock1:11>, [[<ExtraUtilities:decorativeBlock1:8>, <ore:pearlEnderEye>, <ExtraUtilities:decorativeBlock1:8>], [<minecraft:ender_eye>, <ExtraUtilities:decorativeBlock1:12>, <ore:pearlEnderEye>], [<ExtraUtilities:decorativeBlock1:8>, <minecraft:ender_eye>, <ExtraUtilities:decorativeBlock1:8>]]);
+recipes.addShaped(<ExtraUtilities:endConstructor>, [[<ore:pearlEnderEye>, <Avaritia:Double_Craft>, <ore:pearlEnderEye>], [<ExtraUtilities:decorativeBlock1:1>, <ExtraUtilities:decorativeBlock1:11>, <ExtraUtilities:decorativeBlock1:1>], [<ore:blockEnderObsidian>, <ore:blockSteel>, <ore:blockEnderObsidian>]]);
+recipes.addShaped(<ExtraUtilities:endConstructor:2>, [[null, <ore:pearlEnderEye>, null], [<ore:pearlEnderEye>, <ore:blockEnderObsidian>, <ore:pearlEnderEye>], [<ore:blockEnderObsidian>, <ore:blockEnderObsidian>, <ore:blockEnderObsidian>]]);
+recipes.addShaped(<ExtraUtilities:decorativeBlock1:1> * 4, [[<ore:materialEnderPearl>, <ore:blockObsidian>, <ore:materialEnderPearl>], [<ore:blockObsidian>, <ore:materialEnderPearl>, <ore:blockObsidian>], [<ore:materialEnderPearl>, <ore:blockObsidian>, <ore:materialEnderPearl>]]);
+recipes.addShaped(<ExtraUtilities:angelRing>, [[<minecraft:glass>, <ore:blockUnstable>, <minecraft:glass>], [<Botania:manaTablet>.withTag({mana: 500000}), <ForbiddenMagic:StarBlock>, <RArm:ItemCapacitorAmulet:5>.withTag({Energy: 10000000})], [<Botania:flightTiara>, <ore:blockGold>, <Mekanism:Jetpack:1>.withTag({stored: {amount: 24000, gasName: "hydrogen"}})]]);
+recipes.addShaped(<ExtraUtilities:angelRing:1>, [[<minecraft:feather>, <ore:blockUnstable>, <minecraft:feather>], [<Botania:manaTablet>.withTag({mana: 500000}), <ForbiddenMagic:StarBlock>, <RArm:ItemCapacitorAmulet:5>.withTag({Energy: 10000000})], [<Botania:flightTiara>, <ore:blockGold>, <Mekanism:Jetpack:1>.withTag({stored: {amount: 24000, gasName: "hydrogen"}})]]);
+recipes.addShaped(<ExtraUtilities:angelRing:2>, [[<minecraft:dye:13>, <ore:blockUnstable>, <minecraft:dye:13>], [<Botania:manaTablet>.withTag({mana: 500000}), <ForbiddenMagic:StarBlock>, <RArm:ItemCapacitorAmulet:5>.withTag({Energy: 10000000})], [<Botania:flightTiara>, <ore:blockGold>, <Mekanism:Jetpack:1>.withTag({stored: {amount: 24000, gasName: "hydrogen"}})]]);
+recipes.addShaped(<ExtraUtilities:angelRing:3>, [[<minecraft:leather>, <ore:blockUnstable>, <minecraft:leather>], [<Botania:manaTablet>.withTag({mana: 500000}), <ForbiddenMagic:StarBlock>, <RArm:ItemCapacitorAmulet:5>.withTag({Energy: 10000000})], [<Botania:flightTiara>, <ore:blockGold>, <Mekanism:Jetpack:1>.withTag({stored: {amount: 24000, gasName: "hydrogen"}})]]);
+recipes.addShaped(<ExtraUtilities:angelRing:4>, [[<ore:ingotGold>, <ore:blockUnstable>, <ore:ingotGold>], [<Botania:manaTablet>.withTag({mana: 500000}), <ForbiddenMagic:StarBlock>, <RArm:ItemCapacitorAmulet:5>.withTag({Energy: 10000000})], [<Botania:flightTiara>, <ore:blockGold>, <Mekanism:Jetpack:1>.withTag({stored: {amount: 24000, gasName: "hydrogen"}})]]);
+recipes.addShaped(<BigReactors:BRMetalBlock:4> * 2, [[<ore:blockCyanite>, <ore:blockEmerald>, <ore:blockCyanite>], [<ore:blockEnderium>, <ore:itemNetherStar>, <ore:blockEnderium>], [<ore:blockCyanite>, <minecraft:emerald_block>, <ore:blockCyanite>]]);
+recipes.addShaped(<ExtraUtilities:block_bedrockium>, [[<ExtraUtilities:cobblestone_compressed:7>, <ExtraUtilities:cobblestone_compressed:6>, <ExtraUtilities:cobblestone_compressed:5>], [<ExtraUtilities:cobblestone_compressed>, <ore:blockVoid>, <ExtraUtilities:cobblestone_compressed:4>], [<ExtraUtilities:cobblestone_compressed:1>, <ExtraUtilities:cobblestone_compressed:2>, <ExtraUtilities:cobblestone_compressed:3>]]);
+recipes.remove(<ExtraUtilities:block_bedrockium>);
+furnace.remove(<ExtraUtilities:block_bedrockium>);
+recipes.remove(<ExtraUtilities:bedrockiumIngot>);
+mods.thermalexpansion.Furnace.removeRecipe(<ExtraUtilities:cobblestone_compressed:7>);
+mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:obsidian>, <liquid:ender>);
+mods.tconstruct.Smeltery.removeAlloy(<liquid:enderium.molten>);
+mods.tconstruct.Smeltery.removeAlloy(<liquid:signalum.molten>);
+mods.tconstruct.Smeltery.removeAlloy(<liquid:lumium.molten>);
+mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:bookshelf>, <liquid:xpjuice>);
+mods.thermalexpansion.Transposer.addFillRecipe(40000, <minecraft:bookshelf>, <ExtraUtilities:decorativeBlock1:8>, <liquid:xpjuice> * 10000);

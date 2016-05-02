@@ -1,5 +1,5 @@
-var Magical = <customitems:magical_awts_troll_ingot>;
-var Unsatisify = <customitems:unsatisify_ingot>;
+var Magical = <contenttweaker:magical_awts_troll_ingot>;
+var Unsatisify = <contenttweaker:unsatisify_ingot>;
 
 //Long Bows Of Heaven
 var Twine = <witchery:ingredient:101>;
@@ -12,7 +12,8 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Bow>,
 [Magical, null, null, null, <TaintedMagic:FocusTaint>, null, null, null, null],
 [null, Magical, null, null, Twine, null, null, null, null],
 [null, null, Magical, null, Twine, null, null, null, null],
-[null, null, null, Magical, Magical, null, null, null, null]]);
+[null, null, null, Magical, Magical, null, null, null, null]
+]);
 
 //Creative Mana Pool
 var TSteel = <Botania:storage:1>;

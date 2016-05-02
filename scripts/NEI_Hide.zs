@@ -13,6 +13,8 @@ NEI.hide(<HardcoreEnderExpansion:ender_goo>);
 NEI.hide(<HardcoreEnderExpansion:temple_end_portal>);
 NEI.hide(<cfm:curtainon>);
 NEI.hide(<cfm:curtainoff>);
+NEI.hide(<simplyjetpacks:jetpacks:*>);
+NEI.hide(<simplyjetpacks:fluxpacks:*>);
 
 #NEI.hide();
 

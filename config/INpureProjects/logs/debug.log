@@ -11,7 +11,6 @@ Found creative tab: misc
 Found creative tab: tools
 Found creative tab: materials
 Found creative tab: agricraft
-Found creative tab: aroma1997core:creativetab
 Found creative tab: Automagy
 Found creative tab: avaritia
 Found creative tab: BiblioCraft
@@ -128,6 +127,7 @@ Found creative tab: twilightForest
 Found creative tab: witchinggadgets
 Found creative tab: ztones
 Found creative tab: bdew.ae2stuff
+Found creative tab: ae2wct
 Found creative tab: aobd
 Found creative tab: appliedenergistics2
 Found creative tab: appliedenergistics2.facades
@@ -183,17 +183,17 @@ override called. Params: ThermalExpansion, florb, 0,1
 Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
 Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
 Loading: ForgeMicroblock.js
-getRandomMaterial called. Returned: ImmersiveEngineering:stoneDecoration_1
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ImmersiveEngineering:stoneDecoration_1
+getRandomMaterial called. Returned: ImmersiveEngineering:stoneDecoration_3
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, ImmersiveEngineering:stoneDecoration_3
 Loading: ExtraUtilities.js
 override called. Params: ExtraUtilities, drum, 0,1
 Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
 Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
-getRandomMaterial called. Returned: ExtraUtilities:trading_post
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ExtraUtilities:trading_post
+getRandomMaterial called. Returned: ImmersiveEngineering:storage
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, ImmersiveEngineering:storage
 Loading: BuildCraft.js
-getFacadesSize called. Returned: 4883
-obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 4191
+getFacadesSize called. Returned: 4870
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.BCObject). Params: 1961
 Loading: Bibliocraft.js
 override called. Params: BiblioCraft, *, 0
 Regex match found! BiblioCraft:* matches BiblioCraft:Armor Stand.
@@ -329,8 +329,8 @@ Found ItemStack BiblioCraft:tile.BiblioFramedChest. 64xtile.BiblioFramedChest@0
 Loading: AppliedEnergistics2.js
 getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
 getSubTypes called.
-getNumberOfTypes called. Returned: 3441
-override called. Params: appliedenergistics2, item.ItemFacade, 3170
+getNumberOfTypes called. Returned: 3434
+override called. Params: appliedenergistics2, item.ItemFacade, 192
 Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
 Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
 override called. Params: extracells, pattern.fluid, 0
@@ -672,12 +672,6 @@ hide called. Params: minecraft, lit_furnace
 Regex match found! minecraft:lit_furnace matches minecraft:lit_furnace.
 Found ItemStack minecraft:lit_furnace. 64xtile.furnace@0
 Loading: Misc.js
-hide called. Params: Aroma1997Core, wrench
-Regex match found! Aroma1997Core:wrench matches Aroma1997Core:wrench.
-Found ItemStack Aroma1997Core:wrench. 1xitem.aroma1997core:hammer@0
-hide called. Params: Aroma1997Core, wrenched
-Regex match found! Aroma1997Core:wrenched matches Aroma1997Core:wrenched.
-Found ItemStack Aroma1997Core:wrenched. 1xitem.aroma1997core:wrenched@0
 hide called. Params: Botany, flower
 Regex match found! Botany:flower matches Botany:flower.
 Found ItemStack Botany:flower. 64xtile.flower@0
