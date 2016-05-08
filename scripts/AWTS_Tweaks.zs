@@ -1,10 +1,12 @@
+mods.logistics.hammer.addRecipe(<ExtraUtilities:block_bedrockium>, <ExtraUtilities:bedrockiumIngot> * 9);
+mods.logistics.hammer.addRecipe(<ExtraUtilities:cobblestone_compressed:7> * 2, <ExtraUtilities:block_bedrockium>);
+
 recipes.remove(<simplyjetpacks:components:24>);
 recipes.remove(<simplyjetpacks:components:23>);
 recipes.remove(<simplyjetpacks:components:22>);
 recipes.remove(<simplyjetpacks:components:21>);
 recipes.remove(<simplyjetpacks:jetpacks:*>);
 recipes.remove(<MineFactoryReloaded:machine.1:13>);
-recipes.remove(<MineFactoryReloaded:plastic.sheet>);
 recipes.remove(<Botania:reachRing>);
 recipes.remove(<Botania:magnetRingGreater>);
 recipes.remove(<Botania:manaRingGreater:1000>);
@@ -18,11 +20,10 @@ recipes.addShaped(<simplyjetpacks:components:23>, [[<ore:blockEnergeticAlloy>, <
 recipes.addShaped(<simplyjetpacks:components:22>, [[<EnderIO:blockIngotStorage>, <EnderIO:itemBasicCapacitor>, <EnderIO:blockIngotStorage>], [<ThermalDynamics:ThermalDynamics_0:1>, <EnderIO:itemBasicCapacitor>, <ThermalDynamics:ThermalDynamics_0:1>], [<ore:itemMachineChassi>, <EnderIO:itemAlloy:3>, <ore:itemMachineChassi>]]);
 recipes.addShaped(<simplyjetpacks:components:21>, [[<EnderIO:blockIngotStorage:4>, <ore:itemBasicGear>, <EnderIO:blockIngotStorage:4>], [<ThermalDynamics:ThermalDynamics_0>, <ore:itemBasicGear>, <ThermalDynamics:ThermalDynamics_0>], [<EnderIO:itemRedstoneConduit:2>, <ore:blockRedstone>, <EnderIO:itemRedstoneConduit:2>]]);
 recipes.addShaped(<MineFactoryReloaded:machine.1:13>, [[<ore:itemPlastic>, <ore:gearEnderium>, <ore:itemPlastic>], [<EnderIO:item.darkSteel_sword>, <Mekanism:BasicBlock:8>, <ThermalFoundation:tool.swordPlatinum>], [<EnderIO:item.darkSteel_axe>, <EnderIO:itemBasicCapacitor:2>, <ThermalFoundation:tool.axePlatinum>]]);
-recipes.addShaped(<MineFactoryReloaded:plastic.sheet> * 2, [[<ore:itemPlastic>, <ore:itemPlastic>], [<ore:itemPlastic>, <ore:itemPlastic>]]);
 recipes.addShaped(<Botania:reachRing>, [[<ore:runePrideB>, <ore:ingotElvenElementium>, null], [<ore:ingotElvenElementium>, <Botania:manaResource:14>, <ore:ingotElvenElementium>], [null, <ore:ingotElvenElementium>, null]]);
 recipes.addShaped(<Botania:magnetRingGreater>, [[<Botania:magnetRing>, <ore:ingotTerrasteel>, null], [<ore:ingotTerrasteel>, <Botania:manaResource:14>, <ore:ingotTerrasteel>], [null, <ore:ingotTerrasteel>, null]]);
 recipes.addShaped(<Botania:manaRingGreater:1000>, [[<Botania:manaRing>, <ore:ingotTerrasteel>, null], [<ore:ingotTerrasteel>, <Botania:shimmerwoodPlanks>, <ore:ingotTerrasteel>], [null, <ore:ingotTerrasteel>, null]]);
-recipes.addShaped(<Botania:superTravelBelt>, [[null, <ore:ingotElvenElementium>, null], [<ore:ingotElvenElementium>, <Botania:manaResource:14>, <ore:ingotElvenElementium>], [<Botania:travelBelt>, <ore:ingotElvenElementium>, null]]);
+recipes.addShaped(<Botania:superTravelBelt>, [[null, <ore:ingotElvenElementium>, null], [<ore:ingotElvenElementium>, <Thaumcraft:BootsTraveller>, <ore:ingotElvenElementium>], [<Botania:travelBelt>, <ore:ingotElvenElementium>, null]]);
 recipes.addShaped(<Botania:manaResource:14>, [[<ore:eternalLifeEssence>, <ore:eternalLifeEssence>, <ore:eternalLifeEssence>], [<ore:eternalLifeEssence>, <ore:ingotTerrasteel>, <ore:eternalLifeEssence>], [<ore:eternalLifeEssence>, <ore:eternalLifeEssence>, <ore:eternalLifeEssence>]]);
 recipes.addShaped(<quantumflux:zbq7>, [[<ore:blockRedstone>, <ore:blockSteel>, <ore:blockRedstone>], [<ore:blockSteel>, <Botania:storage:3>, <ore:blockSteel>], [<ore:blockRedstone>, <ore:blockSteel>, <ore:blockRedstone>]]);
 recipes.addShaped(<simplyjetpacks:jetpacksEIO:5>, [[<ore:itemEnderCrystal>, <RArm:ItemEnderiumArmor.Chestplate>, <ore:itemEnderCrystal>], [<simplyjetpacks:components:71>, <simplyjetpacks:jetpacksEIO:4>, <simplyjetpacks:components:71>], [<simplyjetpacks:components:25>, <simplyjetpacks:fluxpacksEIO:104>, <simplyjetpacks:components:25>]]);
@@ -58,8 +59,6 @@ recipes.remove(<ImmersiveEngineering:metal:36>);
 recipes.remove(<ImmersiveEngineering:metal:33>);
 recipes.remove(<ImmersiveEngineering:metal:32>);
 recipes.remove(<ImmersiveEngineering:metal:30>);
-recipes.remove(<DraconicEvolution:draconicCore>);
-recipes.addShaped(<DraconicEvolution:draconicCore>, [[<ore:ingotEnderium>, <ore:ingotDraconium>, <ore:ingotEnderium>], [<ore:ingotDraconium>, <ore:ingotThaumium>, <ore:ingotDraconium>], [<ore:ingotEnderium>, <ore:ingotDraconium>, <ore:ingotEnderium>]]);
 
 recipes.remove(<mo:transporter>);
 recipes.remove(<Sanguimancy:telepositionSigil>);

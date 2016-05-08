@@ -52,7 +52,7 @@
             }
 		], 
         "clusterSize": 4,
-        "numClusters": 8,
+        "numClusters": 6,
         "minHeight": 6,
         "maxHeight": 30,
         "retrogen": "false",
@@ -79,7 +79,7 @@
             }
 		], 
         "clusterSize": 4,
-        "numClusters": 8,
+        "numClusters": 5,
         "minHeight": 6,
         "maxHeight": 30,
         "retrogen": "false",
@@ -106,7 +106,7 @@
             }
 		], 
         "clusterSize": 4,
-        "numClusters": 7,
+        "numClusters": 4,
         "minHeight": 10,
         "maxHeight": 30,
         "retrogen": "false",

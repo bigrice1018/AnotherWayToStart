@@ -9,6 +9,7 @@ val BMAxe = <AWWayofTime:boundAxe>;
 val BMShovel = <AWWayofTime:boundShovel>;
 val BTIslandShard = <Botania:laputaShard:*>;
 
+/*
 PowerConduit.addTooltip(format.red(format.bold("Locked")));
 PowerConduit.addTooltip(format.green("Due to lag and the author think it is not balanced."));
 
@@ -17,8 +18,8 @@ PowerConduit1.addTooltip(format.green("Due to lag and the author think it is not
 
 LiquidConduit.addTooltip(format.red(format.bold("Locked")));
 LiquidConduit.addTooltip(format.green("Due to lag and the author think it is not balanced."));
+*/
 
-//
 BMPick.displayName = "Caution - Bound Pickaxe";
 BMPick.addTooltip(format.gray("Press shift for more information."));
 BMPick.addShiftTooltip(format.red(format.bold("Warning")));
@@ -52,7 +53,7 @@ BTIslandShard.addShiftTooltip(format.aqua("For more information, check Botania L
 <DraconicEvolution:wyvernPickaxe:*>.addTooltip(format.aqua("Remember open AOE mode for safety~"));
 <DraconicEvolution:wyvernShovel:*>.addTooltip(format.aqua("Remember open AOE mode for safety~"));
 
-//
+/*
 <MineFactoryReloaded:cable.redstone:2>.displayName = "Locked - RedNet Energy Cable";
 <MineFactoryReloaded:cable.redstone:2>.addTooltip(format.red(format.bold("Locked")));
 <MineFactoryReloaded:cable.redstone:2>.addTooltip(format.green("Due To Classic IC2."));
@@ -65,6 +66,8 @@ BTIslandShard.addShiftTooltip(format.aqua("For more information, check Botania L
 <Mekanism:PartTransmitter:*>.addTooltip(format.yellow(format.bold("Tweaked Item:")));
 <ImmersiveEngineering:metalDevice:*>.addTooltip(format.red(format.bold("NO IC2 POWER FOR U~")));
 <Mekanism:PartTransmitter:*>.addTooltip(format.red(format.bold("NO IC2 POWER FOR U~")));
+*/
+<ExtraUtilities:decorativeBlock1:5>.addTooltip(format.green("Use me to open the gateway to twilight forest~"));
 
 <PeripheralsPlusPlus:chatBox>.addTooltip(format.red(format.bold("Tweaked")));
 <PeripheralsPlusPlus:chatBox>.addTooltip(format.green("Set To Infinite Range."));
@@ -74,7 +77,6 @@ BTIslandShard.addShiftTooltip(format.aqua("For more information, check Botania L
 <PeripheralsPlusPlus:speaker>.addTooltip(format.green("Set To Infinite Range."));
 <PeripheralsPlusPlus:speaker>.addTooltip(format.green("Use It Wisely."));
 
-//
 HealingAxe.addTooltip(format.green("Lick Lick Lick~"));
 
 <contenttweaker:awts_troll_ore>.addTooltip(format.green("Get From Mining Laser With High(? Chance."));

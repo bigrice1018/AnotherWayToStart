@@ -1,17 +1,18 @@
 {
+
     "images":
     {
         "title":
         {
-            "image" : "awts:title.png",
-            "posX" : -151,
+            "image" : "awts:buttonbg.png",
+            "posX" : -38,
             "posY" : 0,
-            "width" : 151,
-            "height" : 72,
+            "width" : 36,
+            "height" : 1000,
             "alignment" : "top_right"
         }
     },
-    
+  
     "buttons":
     {
         "singleplayer":
@@ -19,7 +20,7 @@
             "text" : "",
 			"tooltip": "Singleplayer",
             "posX" : -30,
-            "posY" : 77,
+            "posY" : 40,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -38,7 +39,7 @@
             "text" : "",
 			"tooltip": "Mulitiplayer",
             "posX" : -30,
-            "posY" : 107,
+            "posY" : 70,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -57,7 +58,7 @@
             "text" : "",
 			"tooltip": "Options",
             "posX" : -30,
-            "posY" : 137,
+            "posY" : 100,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -76,7 +77,7 @@
             "text" : "",
 			"tooltip": "More Information",
             "posX" : -30,
-            "posY" : 167,
+            "posY" : 130,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -95,7 +96,7 @@
             "text" : "",
 			"tooltip": "Quit",
             "posX" : -30,
-            "posY" : 197,
+            "posY" : 160,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -106,8 +107,8 @@
             {
                 "type" : "quit"
             }
-        }
-        /*
+        },
+        
         "refresh":
         {
             "text" : "",
@@ -120,7 +121,7 @@
             {
                 "type" : "refresh"
             }
-        }*/
+        }
 		
     },
     
@@ -128,11 +129,35 @@
     {
 		"mojang":
         {
-            "text" : "Copyright Mojang AB | AWTS Beta 1.2.0",
+            "text" : "Copyright Mojang AB. Do not distribute!",
             "posX" : 5,
             "posY" : -10,
             "color" : 6908265,
             "alignment" : "bottom_left"
+        },
+		"title":
+        {
+            "text" : "AWTS",
+            "posX" : -32,
+            "posY" : 10,
+            "color" : -1,
+            "alignment" : "top_right"
+        },
+		"version":
+        {
+            "text" : "1.2.0",
+            "posX" : -31,
+            "posY" : 20,
+            "color" : -1,
+            "alignment" : "top_right"
+        },
+		"update":
+        {
+            "text" : "web:https://raw.githubusercontent.com/bigrice1018/AnotherWayToStart/master/UPDATENEWS",
+            "posX" : 2,
+            "posY" : 2,
+            "color" : 6908265,
+            "alignment" : "top_left"
         }
     },
     
@@ -140,8 +165,14 @@
     {
 		"background":
 		{
-			"image" : "awts:bg.bmp"
-		}
+			"image" : "",
+            "slideshow":
+            {
+                "images" : ["awts:bg.bmp","awts:bg1.png","awts:bg2.png"],
+                "displayDuration" : 2000,
+                "fadeDuration" : 50
+            }
+        }
 		
 		/*
         "panorama":

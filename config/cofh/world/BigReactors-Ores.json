@@ -5,8 +5,8 @@
 		  "name": "BigReactors:YelloriteOre",
 		  "metadata": 0
 		}, 
-        "clusterSize": 6,
-        "numClusters": 2,
+        "clusterSize": 5,
+        "numClusters": 1,
         "minHeight": 5,
         "maxHeight": 8,
         "retrogen": "false",
@@ -25,7 +25,7 @@
 		  "metadata": 0
 		}, 
         "clusterSize": 3,
-        "numClusters": 3,
+        "numClusters": 2,
         "minHeight": 3,
         "maxHeight": 10,
         "retrogen": "false",
@@ -44,7 +44,7 @@
 		   "metadata": 0
 		}, 
         "clusterSize": 2,
-        "numClusters": 5,
+        "numClusters": 4,
         "minHeight": 1,
         "maxHeight": 12,
         "retrogen": "false",

@@ -1,4 +1,5 @@
 import mods.nei.NEI;
+import mods.MTUtils;
 
 //Manasteel (Iron to Steel)
 mods.botania.ManaInfusion.removeRecipe(<Botania:manaResource>);
@@ -12,9 +13,15 @@ mods.botania.ManaInfusion.addConjuration(<Botania:storage>, <ore:blockIron>, 500
 //Start Thaumcraft
 recipes.remove(<Thaumcraft:WandCap>);
 recipes.addShaped(<Thaumcraft:WandCap>, [[<ore:nuggetIron>, <Botania:manaResource:5>, <ore:nuggetIron>], [<ore:nuggetIron>, null, <ore:nuggetIron>]]);
-  //Thaumium
+  //Tweaks
 mods.thaumcraft.Crucible.removeRecipe(<Thaumcraft:ItemResource:2>);
 mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:ItemResource:2>, <Botania:manaResource>, "praecantatio 4");
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticOpaque:2>);
+mods.thaumcraft.Arcane.addShaped("WARDEDARCANA", <Thaumcraft:blockCosmeticOpaque:2> * 4, "ordo 10, aqua 5, terra 5, ignis 5", [[<Botania:elfGlass>, <Botania:elfGlass>, <Botania:elfGlass>], [<Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:ItemZombieBrain>, <Thaumcraft:blockWoodenDevice:6>], [<Botania:elfGlass>, <Botania:elfGlass>, <Botania:elfGlass>]]);
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemResource:7>);
+mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemResource:7>, "aer 1, ignis 1, aqua 1, ordo 1, perditio 1, terra 1", [[null, <ore:manaString>, null], [<ore:manaString>, <minecraft:wool:*>, ore:manaString], [null, <ore:manaString>, null]]);
+mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:6>);
+mods.thaumcraft.Arcane.addShaped("ARCANESTONE", <Thaumcraft:blockCosmeticSolid:6> * 8, "ignis 2, terra 2", [[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>], [<ore:livingrock>, <Thaumcraft:ItemShard:*>, <ore:livingrock>], [<ore:livingrock>, <ore:livingrock>, <ore:livingrock>]]);
 
 //Blood Magic
   //Start
@@ -27,9 +34,15 @@ recipes.addShaped(<AWWayofTime:bloodMagicBaseItems:1>, [[<ore:glass>, <ore:ingot
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:weakBloodOrb>);
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:magicianBloodOrb>);
 mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:apprenticeBloodOrb>);
-mods.bloodmagic.Altar.addRecipe(<Botania:manaResource:2>, <AWWayofTime:weakBloodOrb>, 1, 2500, 2, 1);
-mods.bloodmagic.Altar.addRecipe(<Botania:manaResource:5>, <AWWayofTime:magicianBloodOrb>, 3, 25000, 20, 20);
-mods.bloodmagic.Altar.addRecipe(<Botania:manaResource:8>, <AWWayofTime:apprenticeBloodOrb>, 2, 5000, 5, 5);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:weakBloodOrb>, <Botania:manaResource:2>, 1, 2500, 2, 1);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:magicianBloodOrb>,<Botania:manaResource:5> , 3, 25000, 20, 20);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:apprenticeBloodOrb>,<Botania:manaResource:8>, 2, 5000, 5, 5);
+ //TP Focus
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:telepositionFocus>);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:telepositionFocus>, <Botania:manaResource:15>, 4, 2000, 10, 10);
+ //Scri Knife
+mods.bloodmagic.Altar.removeRecipe(<AWWayofTime:daggerOfSacrifice>);
+mods.bloodmagic.Altar.addRecipe(<AWWayofTime:daggerOfSacrifice>, <Botania:manasteelSword>, 2, 3000, 5, 5);
 
 //Gear Lock
 mods.tconstruct.Casting.removeTableRecipe(<TConstruct:gearCast>);
@@ -51,7 +64,7 @@ recipes.remove(<ThermalFoundation:material:12>);
 recipes.remove(<BuildCraft|Core:diamondGearItem>);
 mods.immersiveengineering.MetalPress.addRecipe(<BuildCraft|Core:diamondGearItem>, <minecraft:diamond>, <ImmersiveEngineering:mold:1>, 2400, 4);
 recipes.remove(<EnderIO:itemMachinePart:1>);
-mods.immersiveengineering.MetalPress.addRecipe(<EnderIO:itemMachinePart:1>, <ExtraUtilities:cobblestone_compressed>, <ImmersiveEngineering:mold:1>, 2400, 2);
+mods.immersiveengineering.MetalPress.addRecipe(<EnderIO:itemMachinePart:1>, <minecraft:cobblestone>, <ImmersiveEngineering:mold:1>, 2400, 8);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:140>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:139>);
 mods.tconstruct.Casting.removeTableRecipe(<ThermalFoundation:material:138>);
@@ -140,12 +153,11 @@ recipes.addShaped(<Mekanism:EnergyTablet:100>, [[<ore:ingotSteel>, <ore:dustReds
   //Start
 recipes.remove(<Mekanism:BasicBlock:8>);
 recipes.remove(<Mekanism:MachineBlock:8>);
-recipes.addShaped(<Mekanism:BasicBlock:8>, [[<EnderIO:itemAlloy:6>, <EnderIO:itemAlloy:6>, <EnderIO:itemAlloy:6>], [<EnderIO:itemAlloy:6>, <ore:blockOsmium>, <EnderIO:itemAlloy:6>], [<EnderIO:itemAlloy:6>, <EnderIO:itemAlloy:6>, <EnderIO:itemAlloy:6>]]);
-recipes.addShaped(<Mekanism:MachineBlock:8>, [[<ore:gearEnderium>, <minecraft:furnace>, <EnderIO:itemBasicCapacitor:2>], [<Mekanism:BasicBlock:8>, <MineFactoryReloaded:pinkslime:1>, <Mekanism:BasicBlock:8>], [<EnderIO:itemBasicCapacitor:2>, <minecraft:furnace>, <ore:gearEnderium>]]);
+recipes.addShaped(<Mekanism:MachineBlock:8>, [[<ore:ingotSteel>, <minecraft:furnace>, <ore:ingotSteel>], [<ore:blockRedstone>, <MineFactoryReloaded:pinkslime:1>, <ore:blockRedstone>], [<ore:ingotSteel>, <minecraft:furnace>, <ore:ingotSteel>]]);
+recipes.addShaped(<Mekanism:BasicBlock:8>, [[<ore:ingotDarkSteel>, <ore:ingotOsmium>, <ore:ingotDarkSteel>], [<ore:ingotOsmium>, <ore:itemEnrichedAlloy>, <ore:ingotOsmium>], [<ore:ingotDarkSteel>, <ore:ingotOsmium>, <ore:ingotDarkSteel>]]);
 
 //EnderIO Conduits
 recipes.remove(<EnderIO:itemMEConduit>);
-recipes.remove(<EnderIO:itemGasConduit>);
 recipes.remove(<EnderIO:itemItemConduit>);
 recipes.remove(<EnderIO:itemLiquidConduit:*>);
 recipes.remove(<EnderIO:itemPowerConduit:*>);
@@ -196,13 +208,11 @@ recipes.remove(<ExtraUtilities:generator:4>);
 recipes.remove(<ExtraUtilities:generator:3>);
 recipes.remove(<ExtraUtilities:generator:2>);
 recipes.remove(<ExtraUtilities:generator:1>);
-recipes.remove(<ExtraUtilities:generator>);
 recipes.remove(<ExtraUtilities:drum>);
 recipes.addShaped(<ExtraUtilities:drum>, [[<ore:ingotSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotSteel>], [<ore:ingotSteel>, <minecraft:cauldron>, <ore:ingotSteel>], [<ore:ingotSteel>, <minecraft:heavy_weighted_pressure_plate>, <ore:ingotSteel>]]);
-  //
-  #watering Can
-  recipes.remove(<ExtraUtilities:watering_can:1>);
-  recipes.addShaped(<ExtraUtilities:watering_can:1>, [[<ore:ingotSteel>, <minecraft:dye:15>, null],  [<ore:ingotSteel>, <minecraft:bowl>, <ore:ingotSteel>], [null, <ore:ingotSteel>, <harvestcraft:cranberryseedItem>]]);
+  //Watering Can
+recipes.remove(<ExtraUtilities:watering_can:1>);
+recipes.addShaped(<ExtraUtilities:watering_can:1>, [[<ore:ingotSteel>, <minecraft:dye:15>, null],  [<ore:ingotSteel>, <minecraft:bowl>, <ore:ingotSteel>], [null, <ore:ingotSteel>, <harvestcraft:cranberryseedItem>]]);
  
 //Quarry
 recipes.addShaped(<contenttweaker:manyullyn_pickaxe>, [[<TConstruct:materials:5>, <TConstruct:materials:5>, <TConstruct:materials:5>], [null, <ore:stickWood>, null], [null, <ore:stickWood>, null]]);
@@ -223,3 +233,13 @@ recipes.addShaped(<rftools:machineFrame>, [[<ore:ingotIron>, <ExtraBees:misc:5>,
 
 //Uncrafting Table
 recipes.remove(<TwilightForest:tile.TFUncraftingTable>);
+
+//Bee
+recipes.remove(<Forestry:scoop>);
+recipes.remove(<MagicBees:item.manasteelScoop>);
+NEI.hide(<Forestry:scoop>);
+NEI.hide(<MagicBees:item.manasteelScoop>);
+recipes.remove(<gendustry:IndustrialScoop:100>);
+recipes.addShaped(<gendustry:IndustrialScoop:100>, [[null, null, <MagicBees:item.thaumiumScoop>], [null, <ore:manaDiamond>, null], [<gendustry:PowerModule>, null, null]]);
+MTUtils.setItemMaxDamage(<MagicBees:item.thaumiumScoop>, 1);
+<MagicBees:item.thaumiumScoop>.addTooltip(format.red(format.bold("One time usage.")));

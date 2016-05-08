@@ -3,19 +3,19 @@
     {
         "title":
         {
-            "image" : "awts:title.png",
-            "posX" : -151,
+            "image" : "awts:buttonbg.png",
+            "posX" : -38,
             "posY" : 0,
-            "width" : 151,
-            "height" : 72,
+            "width" : 36,
+            "height" : 1000,
             "alignment" : "top_right"
         },
 		
 		 "subframe":
         {
             "image" : "awts:subframe.png",
-            "posX" : -85,
-            "posY" : 72,
+            "posX" : -88,
+            "posY" : 34,
             "width" : 50,
             "height" : 155,
             "alignment" : "top_right"
@@ -24,12 +24,12 @@
     
     "buttons":
     {
-		"singleplayer":
+        "singleplayer":
         {
             "text" : "",
 			"tooltip": "Singleplayer",
             "posX" : -30,
-            "posY" : 77,
+            "posY" : 40,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -48,7 +48,7 @@
             "text" : "",
 			"tooltip": "Mulitiplayer",
             "posX" : -30,
-            "posY" : 107,
+            "posY" : 70,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -67,7 +67,7 @@
             "text" : "",
 			"tooltip": "Options",
             "posX" : -30,
-            "posY" : 137,
+            "posY" : 100,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -81,11 +81,12 @@
             }
         },
 		
-		"dexpand":
+		"expand":
         {
             "text" : "",
+			"tooltip": "More Information",
             "posX" : -30,
-            "posY" : 167,
+            "posY" : 130,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -94,7 +95,8 @@
 			"alignment" : "top_right",
             "action" : 
             {
-                "type" : "refresh"
+                "type" : "openGui",
+                "gui" : "custom.submenu"
             }
         },
         
@@ -103,7 +105,7 @@
             "text" : "",
 			"tooltip": "Quit",
             "posX" : -30,
-            "posY" : 197,
+            "posY" : 160,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -120,8 +122,8 @@
         {
             "text" : "",
 			"tooltip": "Languages",
-            "posX" : -80,
-            "posY" : 77,
+            "posX" : -83,
+            "posY" : 40,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -139,8 +141,8 @@
         {
             "text" : "",
 			"tooltip": "Bug Report",
-            "posX" : -80,
-            "posY" : 107,
+            "posX" : -83,
+            "posY" : 70,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -158,8 +160,8 @@
         {
             "text" : "",
 			"tooltip": "Suggestion",
-            "posX" : -80,
-            "posY" : 137,
+            "posX" : -83,
+            "posY" : 100,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -177,8 +179,8 @@
         {
             "text" : "",
 			"tooltip": "Our Website",
-            "posX" : -80,
-            "posY" : 167,
+            "posX" : -83,
+            "posY" : 130,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -188,7 +190,7 @@
 			"action" : 
             {
                 "type" : "openLink",
-                "link" : "http://bigrice.twbbs.org/awts"
+                "link" : "http://bigrice.twbbs.org/modpack"
             }
         },
 		
@@ -196,8 +198,8 @@
         {
             "text" : "",
 			"tooltip": "Dev's Twitter",
-            "posX" : -80,
-            "posY" : 197,
+            "posX" : -83,
+            "posY" : 160,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
@@ -209,9 +211,9 @@
                 "type" : "openLink",
                 "link" : ""
             }
-        }
+        },
 		
-		/*
+		
         "refresh":
         {
             "text" : "",
@@ -224,7 +226,7 @@
             {
                 "type" : "refresh"
             }
-        }*/
+        }
 		
     },
     
@@ -232,11 +234,35 @@
     {
 		"mojang":
         {
-            "text" : "Copyright Mojang AB | AWTS Beta 1.2.0",
+            "text" : "Copyright Mojang AB. Do not distribute!",
             "posX" : 5,
             "posY" : -10,
             "color" : 6908265,
             "alignment" : "bottom_left"
+        },
+		"title":
+        {
+            "text" : "AWTS",
+            "posX" : -32,
+            "posY" : 10,
+            "color" : -1,
+            "alignment" : "top_right"
+        },
+		"version":
+        {
+            "text" : "1.2.0",
+            "posX" : -31,
+            "posY" : 20,
+            "color" : -1,
+            "alignment" : "top_right"
+        },
+		"update":
+        {
+            "text" : "web:https://raw.githubusercontent.com/bigrice1018/AnotherWayToStart/master/UPDATENEWS",
+            "posX" : 2,
+            "posY" : 2,
+            "color" : 6908265,
+            "alignment" : "top_left"
         }
     },
     
@@ -244,8 +270,14 @@
     {
 		"background":
 		{
-			"image" : "awts:bg.bmp"
-		}
+			"image" : "",
+            "slideshow":
+            {
+                "images" : ["awts:bg.bmp","awts:bg1.png","awts:bg2.png"],
+                "displayDuration" : 2000,
+                "fadeDuration" : 50
+            }
+        }
 		
 		/*
         "panorama":

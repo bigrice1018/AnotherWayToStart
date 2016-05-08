@@ -17,6 +17,7 @@ recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:blockIron>, <ore:itemFlint>]);
 MTUtils.setItemMaxDamage(<minecraft:flint_and_steel>, 0);
 <minecraft:flint_and_steel>.displayName = "Flint and Iron?";
+<minecraft:flint_and_steel>.addTooltip(format.red(format.bold("One time usage.")));
 recipes.remove(<Natura:natura.flintandblaze>);
 recipes.addShaped(<Natura:natura.flintandblaze>, [[<ore:ingotSteel>, <ore:powderBlaze>], [<ore:powderBlaze>, <ore:itemFlint>]]);
 

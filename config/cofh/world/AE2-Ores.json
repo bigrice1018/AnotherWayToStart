@@ -13,8 +13,8 @@
                 "weight": 5
             }
         ],
-        "clusterSize": 6,
-        "numClusters": 3,
+        "clusterSize": 5,
+        "numClusters": 2,
         "minHeight": 36,
         "maxHeight": 54,
         "retrogen": "false",
@@ -41,7 +41,7 @@
             }
         ],
         "clusterSize": 4,
-        "numClusters": 4,
+        "numClusters": 3,
         "minHeight": 35,
         "maxHeight": 47,
         "retrogen": "false",
@@ -68,7 +68,7 @@
             }
         ],
         "clusterSize": 3,
-        "numClusters": 5,
+        "numClusters": 4,
         "minHeight": 33,
         "maxHeight": 49,
         "retrogen": "false",
@@ -87,7 +87,7 @@
 		    "metadata": 0
 		}, 
         "clusterSize": 2,
-        "numClusters": 2,
+        "numClusters": 1,
         "minHeight": 31,
         "maxHeight": 37,
         "retrogen": "false",

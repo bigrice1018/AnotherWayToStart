@@ -5,7 +5,7 @@
 		    "name": "Railcraft:ore",
 		    "metadata": 0
 		}, 
-        "clusterSize": 4,
+        "clusterSize": 2,
         "numClusters": 1,
         "minHeight": 10,
         "maxHeight": 15,
@@ -24,7 +24,7 @@
 		   "name": "Railcraft:ore",
 		   "metadata": 0
 		}, 
-        "clusterSize": 3,
+        "clusterSize": 1,
         "numClusters": 2,
         "minHeight": 5,
         "maxHeight": 20,
@@ -44,8 +44,8 @@
 		    "metadata": 1
 		}, 
 		"material": "minecraft:sand",
-        "clusterSize": 12,
-        "numClusters": 8,
+        "clusterSize": 10,
+        "numClusters": 6,
         "minHeight": 60,
         "maxHeight": 80,
         "retrogen": "false",
@@ -64,8 +64,8 @@
 		   "metadata": 1
 		}, 
 		"material": "minecraft:sand",
-        "clusterSize": 10,
-        "numClusters": 10,
+        "clusterSize": 8,
+        "numClusters": 8,
         "minHeight": 50,
         "maxHeight": 100,
         "retrogen": "false",

@@ -6,7 +6,7 @@
             "metadata": 0
         },
         "clusterSize": 16,
-        "numClusters": 8,
+        "numClusters": 6,
         "maxHeight": 49,
 		"minHeight": 46,
         "maxVariance": 55,
@@ -25,8 +25,8 @@
             "name": "chisel:marble",
             "metadata": 0
         },
-        "clusterSize": 12,
-        "numClusters": 8,
+        "clusterSize": 10,
+        "numClusters": 6,
         "maxHeight": 46,
         "minHeight": 44,		
         "maxVariance": 58,
@@ -45,8 +45,8 @@
             "name": "chisel:marble",
             "metadata": 0
         },
-        "clusterSize": 14,
-        "numClusters": 6,
+        "clusterSize": 12,
+        "numClusters": 4,
         "maxHeight": 44,
 		"minHeight": 39,
         "maxVariance": 60,

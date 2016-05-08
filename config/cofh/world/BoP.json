@@ -33,7 +33,7 @@
                 "weight": 16
             }	
         ],
-        "clusterSize": 2,
+        "clusterSize": 1,
         "numClusters": 1,
         "minHeight": 37,
         "maxHeight": 45,

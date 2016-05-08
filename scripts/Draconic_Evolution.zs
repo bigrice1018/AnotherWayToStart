@@ -37,10 +37,10 @@ recipes.remove(<DraconicEvolution:draconicDistructionStaff>);
 recipes.addShaped(<DraconicEvolution:draconicDistructionStaff>, [[<ore:ingotDraconiumAwakened>, <GraviSuite:vajra>, <ore:ingotDraconiumAwakened>], [<DraconicEvolution:draconicPickaxe>, <DraconicEvolution:draconicAxe>, <DraconicEvolution:draconicShovel>], [<ore:ingotDraconiumAwakened>, <DraconicEvolution:draconicSword>, <ore:ingotDraconiumAwakened>]]);
 
 recipes.remove(<DraconicEvolution:weatherController>);
-recipes.addShaped(<DraconicEvolution:weatherController>, [[<ore:rodBlaze>, <ore:ingotDraconium>, <ore:rodBlaze>], [<minecraft:tnt>, <DraconicEvolution:awakenedCore>, <minecraft:tnt>], [<ore:ingotDraconium>, <minecraft:enchanting_table>, <ore:ingotDraconium>]]);
+recipes.addShaped(<DraconicEvolution:weatherController>, [[<ore:rodBlaze>, <ore:ingotDraconium>, <ore:rodBlaze>], [<Mekanism:ObsidianTNT>, <DraconicEvolution:awakenedCore>, <Mekanism:ObsidianTNT>], [<ore:ingotDraconium>, <EnderIO:blockWeatherObelisk>, <ore:ingotDraconium>]]);
 
 recipes.remove(<DraconicEvolution:grinder:3>);
-recipes.addShaped(<DraconicEvolution:grinder:3>, [[<ore:ingotSteel>, <ore:ingotDraconium>, <ore:ingotSteel>], [<ExtraUtilities:ethericsword>, <DraconicEvolution:wyvernCore>, <ExtraUtilities:ethericsword>], [<ore:ingotSteel>, <EnderIO:itemFrankenSkull:2>, <ore:ingotSteel>]]);
+recipes.addShaped(<DraconicEvolution:grinder:3>, [[<ore:ingotSteel>, <ore:ingotDraconium>, <ore:ingotSteel>], [<ExtraUtilities:ethericsword>, <DraconicEvolution:wyvernCore>, <ExtraUtilities:ethericsword>], [<ore:ingotSteel>, <EnderIO:blockKillerJoe>, <ore:ingotSteel>]]);
 
 recipes.remove(<DraconicEvolution:dissEnchanter>);
 recipes.addShaped(<DraconicEvolution:dissEnchanter>, [[<minecraft:ender_eye>, <contenttweaker:enchanced_nether_star>, <minecraft:ender_eye>], [<contenttweaker:emerald_plate>, <EnderIO:blockEnchanter>, <contenttweaker:emerald_plate>], [<DraconicEvolution:wyvernCore>, <contenttweaker:enchanced_nether_star>, <DraconicEvolution:wyvernCore>]]);

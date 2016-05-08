@@ -5,7 +5,7 @@
             "name": "TConstruct:SearedBrick",
             "metadata": 5
         },
-        "clusterSize": 7,
+        "clusterSize": 8,
         "numClusters": 2,
         "minHeight": 54,
         "maxHeight": 59,

@@ -5,7 +5,7 @@
 		    "name": "Thaumcraft:blockCustomOre",
 		    "metadata": 0
 		}, 
-        "clusterSize": 5,
+        "clusterSize": 4,
         "numClusters": 3,
         "minHeight": 32,
         "maxHeight": 39,
@@ -43,7 +43,7 @@
 		    "name": "Thaumcraft:blockCustomOre",
 		    "metadata": 7
 		}, 
-        "clusterSize": 6,
+        "clusterSize": 4,
         "numClusters": 3,
         "minHeight": 35,
         "maxHeight": 40,
@@ -63,7 +63,7 @@
 		   "metadata": 7
 		}, 
         "clusterSize": 3,
-        "numClusters": 5,
+        "numClusters": 4,
         "minHeight": 30,
         "maxHeight": 45,
         "retrogen": "false",
@@ -156,7 +156,7 @@
                 "weight": 16
             }
         ],
-        "clusterSize": 3,
+        "clusterSize": 4,
         "numClusters": 2,
         "minHeight": 39,
         "maxHeight": 49,
@@ -203,8 +203,8 @@
                 "weight": 16
             }
         ],
-        "clusterSize": 2,
-        "numClusters": 5,
+        "clusterSize": 3,
+        "numClusters": 4,
         "minHeight": 37,
         "maxHeight": 51,
         "retrogen": "false",
