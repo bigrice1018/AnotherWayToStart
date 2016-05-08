@@ -211,9 +211,9 @@
                 "type" : "openLink",
                 "link" : ""
             }
-        },
+        }
 		
-		
+		/*
         "refresh":
         {
             "text" : "",
@@ -227,7 +227,7 @@
                 "type" : "refresh"
             }
         }
-		
+		*/
     },
     
     "texts":
