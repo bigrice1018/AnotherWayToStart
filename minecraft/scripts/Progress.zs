@@ -19,7 +19,7 @@ mods.thaumcraft.Crucible.addRecipe("ASPECTS", <Thaumcraft:ItemResource:2>, <Bota
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticOpaque:2>);
 mods.thaumcraft.Arcane.addShaped("WARDEDARCANA", <Thaumcraft:blockCosmeticOpaque:2> * 4, "ordo 10, aqua 5, terra 5, ignis 5", [[<Botania:elfGlass>, <Botania:elfGlass>, <Botania:elfGlass>], [<Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:ItemZombieBrain>, <Thaumcraft:blockWoodenDevice:6>], [<Botania:elfGlass>, <Botania:elfGlass>, <Botania:elfGlass>]]);
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:ItemResource:7>);
-mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemResource:7>, "aer 1, ignis 1, aqua 1, ordo 1, perditio 1, terra 1", [[null, <ore:manaString>, null], [<ore:manaString>, <minecraft:wool:*>, ore:manaString], [null, <ore:manaString>, null]]);
+mods.thaumcraft.Arcane.addShaped("ENCHFABRIC", <Thaumcraft:ItemResource:7>, "aer 1, ignis 1, aqua 1, ordo 1, perditio 1, terra 1", [[null, <ore:manaString>, null], [<ore:manaString>, <minecraft:wool:*>, <ore:manaString>], [null, <ore:manaString>, null]]);
 mods.thaumcraft.Arcane.removeRecipe(<Thaumcraft:blockCosmeticSolid:6>);
 mods.thaumcraft.Arcane.addShaped("ARCANESTONE", <Thaumcraft:blockCosmeticSolid:6> * 8, "ignis 2, terra 2", [[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>], [<ore:livingrock>, <Thaumcraft:ItemShard:*>, <ore:livingrock>], [<ore:livingrock>, <ore:livingrock>, <ore:livingrock>]]);
 
