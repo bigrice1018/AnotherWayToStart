@@ -8,7 +8,7 @@ var Galgadorian = <StevesCarts:BlockMetalStorage:1>;
 var HEET = <contenttweaker:heet_ingot>;
 
 //Long Bows Of Heaven
-var Twine = <witchery:ingredient:101>;
+var Twine = <Botania:manaResource:12>;
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Bow>);
 mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Bow>,
 [[null, null, null, Magical, Magical, null, null, null, null],
@@ -40,7 +40,7 @@ mods.avaritia.ExtremeCrafting.addShaped(<Botania:pool:1>,
 [TSteel, TSteel, Pool, Pool, Pool, Pool, Pool, TSteel, TSteel]]);
 
 //Blood Orb Of Armok
-var DHeart = <witchery:ingredient:23>;
+var DHeart = <AWWayofTime:bloodSocket>;
 var ECC = <thaumicbases:crystalBlock:5>;
 var T6Orb = <AWWayofTime:transcendentBloodOrb>;
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Orb_Armok>);

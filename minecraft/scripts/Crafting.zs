@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<AWWayofTime:emptySocket>);
 recipes.remove(<Botania:manaMirror:1000>);
 recipes.remove(<ThermalFoundation:bucket:5>);
 recipes.remove(<StorageDrawers:controller>);
@@ -68,6 +69,7 @@ recipes.addShapeless(<Mystcraft:page>.withTag({symbol: "ModMat_tile.myst.crystal
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<AWWayofTime:emptySocket>, [[<AWWayofTime:weakBloodShard>, <Thaumcraft:blockCosmeticOpaque:2>, <AWWayofTime:weakBloodShard>], [<Thaumcraft:blockCosmeticOpaque:2>, <ore:manaDiamond>, <Thaumcraft:blockCosmeticOpaque:2>], [<AWWayofTime:weakBloodShard>, <Thaumcraft:blockCosmeticOpaque:2>, <AWWayofTime:weakBloodShard>]]);
 recipes.addShaped(<Avaritia:Neutronium_Compressor>, [[<ExtraUtilities:cobblestone_compressed:11>, <ExtraUtilities:cobblestone_compressed:15>, <ore:compressedDirt4x>], [<ExtraUtilities:cobblestone_compressed:13>, <Avaritia:Dire_Crafting>, <ExtraUtilities:cobblestone_compressed:13>], [<ore:compressedDirt4x>, <ExtraUtilities:cobblestone_compressed:15>, <ore:compressedDirt4x>]]);
 recipes.addShaped(<Botania:manaMirror:1000>, [[null, <ore:manaPearl>, <ore:livingrock>], [null, <ore:livingwoodTwig>, <ore:gaiaIngot>], [<Botania:manaRingGreater:1000>, null, null]]);
 recipes.addShaped(<ThermalFoundation:bucket:5>, [[<ore:bucketPetrotheum>, <ore:bucketRedstone>, <ore:bucketEnder>], [<ore:bucketGlowstone>, <ore:bucketPyrotheum>, <thaumicbases:pyroBucket>], [<ore:bucketAerotheum>, <ore:bucketCryotheum>, <PneumaticCraft:etchacidBucket>]]);

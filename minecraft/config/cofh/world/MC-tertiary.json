@@ -66,7 +66,7 @@
 	"tCoal": {
         "template": "uniform",
         "block": "minecraft:coal_ore",
-        "clusterSize": 10,
+        "clusterSize": 8,
         "numClusters": 10,
         "minHeight": 11,
         "maxHeight": 120,

@@ -28,7 +28,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Version : 1.2.2",
+            "text": "Version : 1.2.3",
             "wrap": 0,
             "size": 1.0,
             "color": "FF0000FF",

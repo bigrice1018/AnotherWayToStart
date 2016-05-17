@@ -98,8 +98,8 @@
 	"pCoal": {
         "template": "uniform",
         "block": "minecraft:coal_ore",
-        "clusterSize": 15,
-        "numClusters": 14,
+        "clusterSize": 14,
+        "numClusters": 12,
         "minHeight": 51,
         "maxHeight": 80,
         "retrogen": "false",

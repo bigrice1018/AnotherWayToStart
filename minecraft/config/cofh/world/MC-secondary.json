@@ -98,8 +98,8 @@
 	"sCoal": {
         "template": "uniform",
         "block": "minecraft:coal_ore",
-        "clusterSize": 12,
-        "numClusters": 12,
+        "clusterSize": 10,
+        "numClusters": 10,
         "minHeight": 31,
         "maxHeight": 100,
         "retrogen": "false",
