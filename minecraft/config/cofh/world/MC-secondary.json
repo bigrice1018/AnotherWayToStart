@@ -66,7 +66,7 @@
 	"sEmerald": {
         "template": "uniform",
         "block": "minecraft:emerald_ore",
-        "clusterSize": 2,
+        "clusterSize": 1,
         "numClusters": 2,
         "minHeight": 5,
         "maxHeight": 15,
