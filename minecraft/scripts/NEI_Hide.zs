@@ -15,6 +15,8 @@ NEI.hide(<cfm:curtainon>);
 NEI.hide(<cfm:curtainoff>);
 NEI.hide(<simplyjetpacks:jetpacks:*>);
 NEI.hide(<simplyjetpacks:fluxpacks:*>);
+NEI.hide(<Mekanism:MachineBlock2:11>.withTag({tier: 3}));
+NEI.hide(<Mekanism:GasTank>.withTag({tier: 3}));
 
 #NEI.hide();
 
@@ -26,5 +28,7 @@ NEI.hide(<contenttweaker:bigrice>);
 //NEI Hide D-ed Item
 NEI.hide(<BiomesOPlenty:enderporter>);
 NEI.hide(<ExtraTiC:gear>);
+NEI.hide(<ae2wct:infinityBoosterCard>);
+NEI.hide(<appliedenergistics2:tile.BlockGrinder>);
 
 

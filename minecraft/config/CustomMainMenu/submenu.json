@@ -152,14 +152,14 @@
 			"action" : 
             {
                 "type" : "openLink",
-                "link" : "http://goo.gl/forms/HtR5Qz8atL"
+                "link" : "https://github.com/bigrice1018/AnotherWayToStart/issues"
             }
         },
 		
 		"conversation":
         {
             "text" : "",
-			"tooltip": "Suggestion",
+			"tooltip": "FTB Thread",
             "posX" : -83,
             "posY" : 100,
             "width" : 20,
@@ -171,14 +171,14 @@
 			"action" : 
             {
                 "type" : "openLink",
-                "link" : "http://goo.gl/forms/oRi0PRuP8I"
+                "link" : "http://forum.feed-the-beast.com/threads/1-7-10-another-way-to-start-v-1-2-3-2-step-by-step-fresh-survival-stable-250-mods-hqm-wip.154391/"
             }
         },
 		
 		"blog":
         {
             "text" : "",
-			"tooltip": "Our Website",
+			"tooltip": "Our discord",
             "posX" : -83,
             "posY" : 130,
             "width" : 20,
@@ -190,14 +190,14 @@
 			"action" : 
             {
                 "type" : "openLink",
-                "link" : "http://bigrice.twbbs.org/modpack"
+                "link" : "https://discord.gg/0xkYj6NzLYOhYJqN"
             }
         },
 		
 		"channel":
         {
             "text" : "",
-			"tooltip": "Dev's Twitter",
+			"tooltip": "Dev's Twitter (Chinese)",
             "posX" : -83,
             "posY" : 160,
             "width" : 20,
@@ -209,7 +209,7 @@
 			"action" : 
             {
                 "type" : "openLink",
-                "link" : ""
+                "link" : "https://twitter.com/BigRice1018"
             }
         }
 		
@@ -250,7 +250,7 @@
         },
 		"version":
         {
-            "text" : "1.2.3.2",
+            "text" : "1.2.4",
             "posX" : -31,
             "posY" : 20,
             "color" : -1,

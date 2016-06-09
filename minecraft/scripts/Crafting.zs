@@ -12,6 +12,12 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<ExtraUtilities:trashcan:1>);
+recipes.remove(<ExtraUtilities:trashcan>);
+recipes.remove(<IC2:blockMachine>);
+recipes.remove(<mo:machine_casing>);
+recipes.remove(<appliedenergistics2:tile.BlockGrinder>);
+recipes.remove(<Mekanism:ControlCircuit:3>);
 recipes.remove(<AWWayofTime:emptySocket>);
 recipes.remove(<Botania:manaMirror:1000>);
 recipes.remove(<ThermalFoundation:bucket:5>);
@@ -56,6 +62,7 @@ recipes.remove(<ExtraUtilities:angelRing:*>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<EnderIO:itemBasicCapacitor>, [[null, <ore:nuggetGold>, <ore:alloyBasic>], [<ore:nuggetGold>, <ore:ingotCopper>, <ore:nuggetGold>], [<ore:alloyBasic>, <ore:nuggetGold>, null]]);
 recipes.removeShaped(<ExtraUtilities:cobblestone_compressed>, [[<ore:cobblestone>, <minecraft:cobblestone>, <ore:cobblestone>], [<ore:cobblestone>, <minecraft:cobblestone>, <ore:cobblestone>], [<minecraft:cobblestone>, <ore:cobblestone>, <minecraft:cobblestone>]]);
 recipes.removeShaped(<LogisticsPipes:logisticsSolidBlock:2>, [[<ore:ingotIron>, <ore:gearDiamond>, <ore:ingotIron>], [<ore:dustRedstone>, <LogisticsPipes:item.PipeItemsBasicLogistics>, <ore:dustRedstone>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.removeShaped(<ExtraUtilities:golden_bag>, [[<ore:blockWool>, <ore:gemDiamond>, <ore:blockWool>], [<ore:ingotGold>, <ore:chestWood>, <ore:ingotGold>], [<ore:blockWool>, <minecraft:gold_block>, <ore:blockWool>]]);
@@ -65,10 +72,13 @@ recipes.removeShaped(<ExtraUtilities:golden_bag>, [[<ore:blockWool>, <ore:gemDia
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
-recipes.addShapeless(<Mystcraft:page>.withTag({symbol: "ModMat_tile.myst.crystal"}), [<ore:blockCrystalMatrix>, <Mystcraft:page>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<ExtraUtilities:trashcan:1>, [[<ExtraUtilities:trashcan>, <LatBlocks:tankVoid>]]);
+recipes.addShaped(<ExtraUtilities:trashcan>, [[<ore:stone>, <ore:stone>, <ore:stone>], [<ore:cobblestone>, <craftingpillars:trashPillar>, <ore:cobblestone>], [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]]);
+recipes.addShaped(<IC2:blockMachine>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <Mekanism:BasicBlock:8>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<EnderIO:itemBasicCapacitor>, [[null, <ore:nuggetGold>, <ore:alloyBasic>], [<ore:nuggetGold>, <ore:dustCopper>, <ore:nuggetGold>], [<ore:alloyBasic>, <ore:nuggetGold>, null]]);
 recipes.addShaped(<AWWayofTime:emptySocket>, [[<AWWayofTime:weakBloodShard>, <Thaumcraft:blockCosmeticOpaque:2>, <AWWayofTime:weakBloodShard>], [<Thaumcraft:blockCosmeticOpaque:2>, <ore:manaDiamond>, <Thaumcraft:blockCosmeticOpaque:2>], [<AWWayofTime:weakBloodShard>, <Thaumcraft:blockCosmeticOpaque:2>, <AWWayofTime:weakBloodShard>]]);
 recipes.addShaped(<Avaritia:Neutronium_Compressor>, [[<ExtraUtilities:cobblestone_compressed:11>, <ExtraUtilities:cobblestone_compressed:15>, <ore:compressedDirt4x>], [<ExtraUtilities:cobblestone_compressed:13>, <Avaritia:Dire_Crafting>, <ExtraUtilities:cobblestone_compressed:13>], [<ore:compressedDirt4x>, <ExtraUtilities:cobblestone_compressed:15>, <ore:compressedDirt4x>]]);
 recipes.addShaped(<Botania:manaMirror:1000>, [[null, <ore:manaPearl>, <ore:livingrock>], [null, <ore:livingwoodTwig>, <ore:gaiaIngot>], [<Botania:manaRingGreater:1000>, null, null]]);
@@ -98,8 +108,7 @@ recipes.addShaped(<EnderIO:itemGasConduit> * 8, [[<ore:itemConduitBinder>, <Meka
 recipes.addShaped(<Mekanism:PartTransmitter:8> * 8, [[<Mekanism:BasicBlock>, <ThermalDynamics:ThermalDynamics_16:2>, <ThermalDynamics:ThermalDynamics_16:2>], [<ThermalDynamics:ThermalDynamics_16:2>, <ThermalDynamics:ThermalDynamics_16:2>, <ThermalDynamics:ThermalDynamics_16:2>], [<ThermalDynamics:ThermalDynamics_16:2>, <ThermalDynamics:ThermalDynamics_16:2>, <ThermalDynamics:ThermalDynamics_16:2>]]);
 recipes.addShaped(<Mekanism:PartTransmitter:4> * 8, [[<Mekanism:BasicBlock:5>, <ThermalDynamics:ThermalDynamics_16:2>, <ThermalDynamics:ThermalDynamics_16:2>], [<ThermalDynamics:ThermalDynamics_16:2>, <ThermalDynamics:ThermalDynamics_16:2>, <ThermalDynamics:ThermalDynamics_16:2>], [<ThermalDynamics:ThermalDynamics_16:2>, <ThermalDynamics:ThermalDynamics_16:2>, <ThermalDynamics:ThermalDynamics_16:2>]]);
 recipes.addShaped(<Mekanism:PartTransmitter:12> * 8, [[<Mekanism:ControlCircuit>, <ThermalDynamics:ThermalDynamics_32>, <ThermalDynamics:ThermalDynamics_32>], [<ThermalDynamics:ThermalDynamics_32>, <ThermalDynamics:ThermalDynamics_32>, <ThermalDynamics:ThermalDynamics_32>], [<ThermalDynamics:ThermalDynamics_32>, <ThermalDynamics:ThermalDynamics_32>, <ThermalDynamics:ThermalDynamics_32>]]);
-recipes.addShaped(<rftools:dimletResearcherBlock>, [[<ore:redstoneCrystal>, <Mystcraft:BlockBookReceptacle>, <ore:redstoneCrystal>], [<ore:chipsetComp>, <rftools:machineFrame>, <ore:chipsetComp>], [<EnderIO:blockIngotStorage:6>, <EnderIO:blockIngotStorage:6>, <ore:blockDarkSteel>]]);
-recipes.addShaped(<Mystcraft:BlockCrystal> * 8, [[<ore:livingrock>, <ore:livingrock>, <ore:livingrock>], [<ore:livingrock>, <Mystcraft:page>.withTag({symbol: "ModMat_tile.myst.crystal"}), <ore:livingrock>], [<ore:livingrock>, <ore:livingrock>, <ore:livingrock>]]);
+recipes.addShaped(<rftools:dimletResearcherBlock>, [[<ore:redstoneCrystal>, <Botania:laputaShard:19>, <ore:redstoneCrystal>], [<ore:chipsetComp>, <rftools:machineFrame>, <ore:chipsetComp>], [<EnderIO:blockIngotStorage:6>, <EnderIO:blockIngotStorage:6>, <ore:blockDarkSteel>]]);
 recipes.addShaped(<ImmersiveEngineering:material:15>, [[null, null, <ore:ingotSteel>], [null, <ore:ingotSteel>, null], [<ore:ingotSteel>, null, null]]);
 recipes.addShaped(<quantumflux:battlesuit_leggings:1>, [[<quantumflux:upgradeToken>, <quantumflux:battlesuit_leggings>], [<RArm:ItemEnderiumArmor.Leggings>, null]]);
 recipes.addShaped(<quantumflux:battlesuit_helmet:1>, [[<quantumflux:upgradeToken>, <quantumflux:battlesuit_helmet>], [<RArm:ItemEnderiumArmor.Helm>, null]]);
