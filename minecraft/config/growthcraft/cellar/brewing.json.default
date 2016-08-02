@@ -4,11 +4,12 @@
     {
       "comment": "",
       "item": {
-        "comment": "Bayanus Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
+        "ore": "yeastBayanus",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
         "amount": 1,
-        "meta": 2
+        "meta": 32767
       },
       "input_fluid": {
         "comment": "Grape Wine",
@@ -22,6 +23,7 @@
       },
       "residue": {
         "pomace": 0.3,
+        "ore": null,
         "comment": "Bone Meal",
         "mod_id": "minecraft",
         "name": "dye",
@@ -35,6 +37,8 @@
       "item": {
         "ore": "cropWheat",
         "comment": "",
+        "mod_id": null,
+        "name": null,
         "amount": 1,
         "meta": 32767
       },
@@ -44,12 +48,13 @@
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Ale",
+        "comment": "Ale Wort",
         "name": "grc.hopale4",
         "amount": 40
       },
       "residue": {
         "pomace": 0.3,
+        "ore": null,
         "comment": "Bone Meal",
         "mod_id": "minecraft",
         "name": "dye",
@@ -63,21 +68,24 @@
       "item": {
         "ore": "cropHops",
         "comment": "",
+        "mod_id": null,
+        "name": null,
         "amount": 1,
         "meta": 32767
       },
       "input_fluid": {
-        "comment": "Ale",
+        "comment": "Ale Wort",
         "name": "grc.hopale4",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Ale",
+        "comment": "Ale Wort",
         "name": "grc.hopale0",
         "amount": 40
       },
       "residue": {
         "pomace": 0.0,
+        "ore": null,
         "comment": "Bone Meal",
         "mod_id": "minecraft",
         "name": "dye",
@@ -89,24 +97,26 @@
     {
       "comment": "",
       "item": {
-        "comment": "Lager Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
+        "ore": "yeastLager",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
         "amount": 1,
-        "meta": 1
+        "meta": 32767
       },
       "input_fluid": {
-        "comment": "Ale",
+        "comment": "Ale Wort",
         "name": "grc.hopale4",
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Lager",
+        "comment": "Lager Wort",
         "name": "grc.lager0",
         "amount": 40
       },
       "residue": {
         "pomace": 0.0,
+        "ore": null,
         "comment": "Bone Meal",
         "mod_id": "minecraft",
         "name": "dye",
@@ -118,11 +128,12 @@
     {
       "comment": "",
       "item": {
-        "comment": "Thistle",
-        "mod_id": "Growthcraft|Milk",
-        "name": "grcmilk.Thistle",
+        "ore": "rennetSource",
+        "comment": "",
+        "mod_id": null,
+        "name": null,
         "amount": 1,
-        "meta": 0
+        "meta": 32767
       },
       "input_fluid": {
         "comment": "Water",
@@ -134,32 +145,13 @@
         "name": "grcmilk.rennet",
         "amount": 1000
       },
+      "residue": null,
       "time": 1200
     },
     {
       "comment": "",
       "item": {
-        "comment": "Stomach",
-        "mod_id": "Growthcraft|Milk",
-        "name": "grcmilk.Stomach",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Water",
-        "name": "water",
-        "amount": 1000
-      },
-      "output_fluid": {
-        "comment": "Rennet",
-        "name": "grcmilk.rennet",
-        "amount": 1000
-      },
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": {
+        "ore": null,
         "comment": "Sugar",
         "mod_id": "minecraft",
         "name": "sugar",
@@ -178,6 +170,7 @@
       },
       "residue": {
         "pomace": 1.0,
+        "ore": null,
         "comment": "Starter Culture",
         "mod_id": "Growthcraft|Milk",
         "name": "grcmilk.StarterCulture",
@@ -191,6 +184,8 @@
       "item": {
         "ore": "cropRice",
         "comment": "",
+        "mod_id": null,
+        "name": null,
         "amount": 1,
         "meta": 32767
       },
@@ -200,12 +195,13 @@
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Sake",
+        "comment": "Sake Moromi",
         "name": "grc.ricesake0",
         "amount": 40
       },
       "residue": {
         "pomace": 0.2,
+        "ore": null,
         "comment": "Bone Meal",
         "mod_id": "minecraft",
         "name": "dye",

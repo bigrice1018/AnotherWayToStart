@@ -17,7 +17,7 @@ NEI.hide(<simplyjetpacks:jetpacks:*>);
 NEI.hide(<simplyjetpacks:fluxpacks:*>);
 NEI.hide(<Mekanism:MachineBlock2:11>.withTag({tier: 3}));
 NEI.hide(<Mekanism:GasTank>.withTag({tier: 3}));
-
+NEI.hide(<Growthcraft|Fishtrap:grc.fishTrap>);
 #NEI.hide();
 
 //NEI Hide

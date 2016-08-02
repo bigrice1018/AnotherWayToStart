@@ -44,7 +44,6 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<ImmersiveEngineering:metal:2>
 mods.immersiveengineering.ArcFurnace.addRecipe(<ThermalFoundation:material:67>*2, <ore:oreLead>, <ImmersiveEngineering:material:13>, 200,  512, []);
 mods.immersiveengineering.ArcFurnace.addRecipe(<ThermalFoundation:material:67>, <ore:dustLead>, null, 100,  512, []);
 
-NEI.hide(<MorePlanet:venus_item>);
 
 #============================================================================================
 #Fac. ModTweaker 1.9 Bug?

@@ -231,8 +231,6 @@ recipes.remove(<MineFactoryReloaded:cable.redstone:2>);
 recipes.remove(<rftools:machineFrame>);
 recipes.addShaped(<rftools:machineFrame>, [[<ore:ingotIron>, <ExtraBees:misc:5>, <ore:ingotIron>], [<ore:nuggetGold>, <Mekanism:BasicBlock:8>, <ore:nuggetGold>], [<ore:ingotIron>, <ExtraBees:misc:5>, <ore:ingotIron>]]);
 
-//Uncrafting Table
-recipes.remove(<TwilightForest:tile.TFUncraftingTable>);
 
 //Bee
 recipes.remove(<Forestry:scoop>);

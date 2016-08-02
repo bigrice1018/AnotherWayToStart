@@ -140,7 +140,7 @@
 		"bugreport":
         {
             "text" : "",
-			"tooltip": "Bug Report",
+			"tooltip": "Bug Report/Known Bugs",
             "posX" : -83,
             "posY" : 70,
             "width" : 20,
@@ -178,7 +178,7 @@
 		"blog":
         {
             "text" : "",
-			"tooltip": "Our discord",
+			"tooltip": "Changelog",
             "posX" : -83,
             "posY" : 130,
             "width" : 20,
@@ -190,26 +190,26 @@
 			"action" : 
             {
                 "type" : "openLink",
-                "link" : "https://discord.gg/0xkYj6NzLYOhYJqN"
+                "link" : "https://github.com/bigrice1018/AnotherWayToStart/releases/latest"
             }
         },
 		
 		"channel":
         {
             "text" : "",
-			"tooltip": "Dev's Twitter (Chinese)",
+			"tooltip": "Our discord",
             "posX" : -83,
             "posY" : 160,
             "width" : 20,
             "height" : 20,
 			"imageWidth": "800",
 			"imageHeight": "800",
-            "texture" : "awts:twitter.png",  
+            "texture" : "awts:arrow.png",  
 			"alignment" : "top_right",
 			"action" : 
             {
                 "type" : "openLink",
-                "link" : "https://twitter.com/BigRice1018"
+                "link" : "https://discord.gg/0xkYj6NzLYOhYJqN"
             }
         }
 		
@@ -250,7 +250,7 @@
         },
 		"version":
         {
-            "text" : "1.2.4",
+            "text" : "1.2.5",
             "posX" : -31,
             "posY" : 20,
             "color" : -1,

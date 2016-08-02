@@ -63,12 +63,8 @@ NEI.hide(<MagicBees:beeNugget:1>);
 NEI.hide(<Railcraft:nugget:2>);
 NEI.hide(<Thaumcraft:ItemNugget:1>);
 
-furnace.remove(<GalacticraftCore:item.basicItem:3>);
-furnace.addRecipe(<ThermalFoundation:material:64>*3, <GalacticraftCore:item.canister:1>);
-
 mods.extraUtils.QED.removeRecipe(<ore:ingotCopper>);
 
-mods.thermalexpansion.Furnace.removeRecipe(<GalacticraftCore:item.canister:1>);
 mods.thermalexpansion.Furnace.addRecipe(2000, <ThermalFoundation:material:64>*3, <GalacticraftCore:item.canister:1>);
 
 #============================================================================================
