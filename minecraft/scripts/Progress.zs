@@ -148,8 +148,8 @@ recipes.remove(<Mekanism:PartTransmitter>);
 recipes.remove(<Mekanism:PartTransmitter:1>);
 recipes.remove(<Mekanism:PartTransmitter:2>);
 recipes.remove(<Mekanism:PartTransmitter:3>);
-recipes.remove(<Mekanism:EnergyTablet:100>);
-recipes.addShaped(<Mekanism:EnergyTablet:100>, [[<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>], [<ore:alloyAdvanced>, <Mekanism:ControlCircuit>, <ore:alloyAdvanced>], [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]]);
+recipes.remove(<Mekanism:EnergyTablet:*>);
+recipes.addShaped(<Mekanism:EnergyTablet:*>, [[<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>], [<ore:alloyAdvanced>, <Mekanism:ControlCircuit>, <ore:alloyAdvanced>], [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]]);
   //Start
 recipes.remove(<Mekanism:BasicBlock:8>);
 recipes.remove(<Mekanism:MachineBlock:8>);

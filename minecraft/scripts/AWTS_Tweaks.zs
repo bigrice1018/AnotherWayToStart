@@ -1,6 +1,5 @@
 mods.logistics.hammer.addRecipe(<ExtraUtilities:block_bedrockium>, <ExtraUtilities:bedrockiumIngot> * 9);
 mods.logistics.hammer.addRecipe(<ExtraUtilities:cobblestone_compressed:7> * 2, <ExtraUtilities:block_bedrockium>);
-<Growthcraft|Fishtrap:grc.fishTrap>
 recipes.remove(<Growthcraft|Fishtrap:grc.fishTrap>);
 recipes.remove(<simplyjetpacks:components:24>);
 recipes.remove(<simplyjetpacks:components:23>);
