@@ -229,7 +229,7 @@ recipes.remove(<MineFactoryReloaded:cable.redstone:2>);
 
 //Rftool
 recipes.remove(<rftools:machineFrame>);
-recipes.addShaped(<rftools:machineFrame>, [[<ore:ingotIron>, <ExtraBees:misc:5>, <ore:ingotIron>], [<ore:nuggetGold>, <Mekanism:BasicBlock:8>, <ore:nuggetGold>], [<ore:ingotIron>, <ExtraBees:misc:5>, <ore:ingotIron>]]);
+recipes.addShaped(<rftools:machineFrame>, [[<ore:ingotIron>, <ore:gemLapis>, <ore:ingotIron>], [<ore:nuggetGold>, <Mekanism:BasicBlock:8>, <ore:nuggetGold>], [<ore:ingotIron>, <ore:gemLapis>, <ore:ingotIron>]]);
 
 
 //Bee
@@ -241,3 +241,13 @@ recipes.remove(<gendustry:IndustrialScoop:100>);
 recipes.addShaped(<gendustry:IndustrialScoop:100>, [[null, null, <MagicBees:item.thaumiumScoop>], [null, <ore:manaDiamond>, null], [<gendustry:PowerModule>, null, null]]);
 MTUtils.setItemMaxDamage(<MagicBees:item.thaumiumScoop>, 1);
 <MagicBees:item.thaumiumScoop>.addTooltip(format.red(format.bold("One time usage.")));
+
+//Green Heart Can
+recipes.addShapeless(<TConstruct:heartCanister:5>, [<DraconicEvolution:dragonHeart>]);
+recipes.addShapeless(<TConstruct:heartCanister:3>, [<TConstruct:heartCanister:5>]);
+recipes.addShapeless(<TConstruct:heartCanister:6>, [<TConstruct:heartCanister:4>,<TConstruct:heartCanister:5>,<TConstruct:diamondApple>]);
+
+//EU soul
+recipes.addShapeless(<ExtraUtilities:mini-soul:3>, [<BiomesOPlenty:misc:10>,<ExtraUtilities:lawSword>,<TConstruct:heartCanister:6>]);
+
+

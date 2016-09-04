@@ -175,6 +175,9 @@ mods.avaritia.ExtremeCrafting.remove(<Avaritia:Neutron_Collector>);
 NEI.hide(<Avaritia:infinitato>);
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:infinitato>);
 NEI.hide(<Avaritia:Matter_Cluster>);
+mods.avaritia.ExtremeCrafting.remove(<Thaumcraft:WandCasting:9000>);
+NEI.hide(<Thaumcraft:WandCasting:9000>);
+mods.avaritia.ExtremeCrafting.remove(<appliedenergistics2:tile.BlockCreativeEnergyCell>);
 
 #NEI.hide();
 #mods.avaritia.ExtremeCrafting.remove();
