@@ -90,3 +90,7 @@ HealingAxe.addTooltip(format.green("Lick Lick Lick~"));
 
 <contenttweaker:bigrice>.addTooltip(format.gold(format.obfuscated(format.bold("Head Developer Of AWTS"))));
 <contenttweaker:bigrice>.addShiftTooltip(format.gold(format.bold("Head Developer Of AWTS")));
+
+recipes.addShaped(<contenttweaker:wendy>, [[<contenttweaker:unbalanced_ore>, <contenttweaker:unbalanced_ore>, <contenttweaker:unbalanced_ore>], [<contenttweaker:unbalanced_ore>, <contenttweaker:unbalanced_ore>, <contenttweaker:unbalanced_ore>], [<contenttweaker:unbalanced_ore>, <contenttweaker:unbalanced_ore>, <contenttweaker:unbalanced_ore>]]);
+recipes.addShaped(<contenttweaker:chifung>, [[<Avaritia:Triple_Craft>, <Avaritia:Triple_Craft>, <Avaritia:Triple_Craft>], [<Avaritia:Triple_Craft>, <Avaritia:Triple_Craft>, <Avaritia:Triple_Craft>], [<Avaritia:Triple_Craft>, <Avaritia:Triple_Craft>, <Avaritia:Triple_Craft>]]);
+recipes.addShaped(<contenttweaker:bigrice>, [[<Avaritia:Resource_Block:1>, <Avaritia:Resource_Block:1>, <Avaritia:Resource_Block:1>], [<Avaritia:Resource_Block:1>, <Avaritia:Resource_Block:1>, <Avaritia:Resource_Block:1>], [<Avaritia:Resource_Block:1>, <Avaritia:Resource_Block:1>, <Avaritia:Resource_Block:1>]]);

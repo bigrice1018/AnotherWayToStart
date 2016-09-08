@@ -28,7 +28,7 @@
         {
           "type": "FeatureText",
           "properties": {
-            "text": "Version : 1.2.6",
+            "text": "Version : 1.2.7",
             "wrap": 0,
             "size": 1.0,
             "color": "FF0000FF",
@@ -69,18 +69,6 @@
             "yPos": 203,
             "width": 49.0,
             "height": 69.0
-          }
-        },
-        {
-          "type": "FeatureRecipe",
-          "properties": {
-            "ingredients": "plankWood:plankWood:plankWood:cobblestone:ingotAluminum:cobblestone:cobblestone:dustRedstone:cobblestone",
-            "recipeType": "ShapedOreRecipe",
-            "item": "minecraft:piston",
-            "xPos": -139,
-            "yPos": 288,
-            "width": 128.0,
-            "height": 64.0
           }
         },
         {
@@ -205,16 +193,6 @@
             "yPos": -70,
             "width": 458.0,
             "height": 127.0
-          }
-        },
-        {
-          "type": "FeatureImage",
-          "properties": {
-            "path": "Welcome_Book/Screenshot_8.png",
-            "xPos": -197,
-            "yPos": 288,
-            "width": 100.0,
-            "height": 99.0
           }
         },
         {
