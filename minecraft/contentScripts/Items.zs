@@ -34,7 +34,7 @@ mods.content.Item.registerItem("Healing Core", "healing_core", "healing_core", "
 #mods.content.Item.registerItem("Unchargeable Battery", "gcc_battery", "gcc_battery", "awts", 50, 4);
 #mods.content.Item.registerItem("Unchargeable RE-Battery", "ic2_rebattery", "ic2_rebattery", "awts", 50, 4);
 #mods.content.Item.registerItem("Unchargeable Advanced RE-Battery", "ic2_reAdvBat", "ic2_reAdvBat", "awts", 50, 4);
-#mods.content.Item.registerItem("Unchargeable Energy Tablet", "mek_energytablet", "mek_energytablet", "awts", 50, 4);
+mods.content.Item.registerItem("Unchargeable Energy Tablet", "mek_energytablet", "mek_energytablet", "awts", 50, 4);
 
 //Foods
 mods.content.Item.registerItem("Compressed Sausageinbread", "sausageinbreadItemx1", "sausageinbreadItem", "awts");
@@ -76,11 +76,6 @@ mods.content.Item.registerItem("Mana Infusion Healing Axe", "mana_infusion_heali
 mods.content.Item.registerItem("Elven Mana Infusion Healing Axe", "elven_mana_infusion_healing_axe", "elven_mana_infusion_healing_axe", "awts", 50, 1, "axe", 18);
 mods.content.Item.registerItem("Bloody Elven Mana Infusion Healing Axe", "bloody_elven_mana_infusion_healing_axe", "bloody_elven_mana_infusion_healing_axe", "awts", 50, 1, "axe", 18);
 mods.content.Item.registerItem("Evolved Healing Axe", "evolved_healing_axe", "evolved_healing_axe", "awts", 50, 1, "axe", 18);
-
-//Universal Cable Parts
-#mods.content.Item.registerItem("Ultimate Universal Cable Core", "universalcableultimate_core", "universalcableultimate_core", "awts");
-#mods.content.Item.registerItem("Ultimate Universal Cable Horizontal Part", "universalcableultimate_horizontal_part", "universalcableultimate_horizontal_part", "awts");
-#mods.content.Item.registerItem("Ultimate Universal Cable Vertical Part", "universalcableultimate_vertical_part", "universalcableultimate_vertical_part", "awts");
 
 //Ingots
 mods.content.Item.registerItem("awts Troll Ingot", "awts_troll_ingot", "awts_troll_ingot", "awts");

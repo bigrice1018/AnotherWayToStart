@@ -148,13 +148,44 @@ recipes.remove(<Mekanism:PartTransmitter>);
 recipes.remove(<Mekanism:PartTransmitter:1>);
 recipes.remove(<Mekanism:PartTransmitter:2>);
 recipes.remove(<Mekanism:PartTransmitter:3>);
-recipes.remove(<Mekanism:EnergyTablet:*>);
-recipes.addShaped(<Mekanism:EnergyTablet:*>, [[<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>], [<ore:alloyAdvanced>, <Mekanism:ControlCircuit>, <ore:alloyAdvanced>], [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]]);
+recipes.remove(<Mekanism:EnergyTablet>);
+recipes.remove(<Mekanism:EnergyTablet>);
+recipes.addShaped(<Mekanism:EnergyTablet>, [[<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>], [<ore:alloyAdvanced>, <Mekanism:ControlCircuit>, <ore:alloyAdvanced>], [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>]]);
   //Start
-recipes.remove(<Mekanism:BasicBlock:8>);
-recipes.remove(<Mekanism:MachineBlock:8>);
-recipes.addShaped(<Mekanism:MachineBlock:8>, [[<ore:ingotSteel>, <minecraft:furnace>, <ore:ingotSteel>], [<ore:blockRedstone>, <MineFactoryReloaded:pinkslime:1>, <ore:blockRedstone>], [<ore:ingotSteel>, <minecraft:furnace>, <ore:ingotSteel>]]);
+recipes.remove(<contenttweaker:mek_energytablet>);
+recipes.addShaped(<contenttweaker:mek_energytablet>, [[<ore:ingotSteel>, <minecraft:furnace>, <ore:ingotSteel>], [<ore:blockRedstone>, <MineFactoryReloaded:pinkslime:1>, <ore:blockRedstone>], [<ore:ingotSteel>, <minecraft:furnace>, <ore:ingotSteel>]]);
 recipes.addShaped(<Mekanism:BasicBlock:8>, [[<ore:ingotDarkSteel>, <ore:ingotOsmium>, <ore:ingotDarkSteel>], [<ore:ingotOsmium>, <ore:itemEnrichedAlloy>, <ore:ingotOsmium>], [<ore:ingotDarkSteel>, <ore:ingotOsmium>, <ore:ingotDarkSteel>]]);
+  //EnergyTablet Fix
+recipes.remove(<Mekanism:EnergyTablet>);
+recipes.remove(<Mekanism:EnergyCube>);
+recipes.remove(<Mekanism:BasicBlock2:3>);
+recipes.remove(<Mekanism:BasicBlock2:4>);
+NEI.hide(<Mekanism:EnergyCube>);
+NEI.hide(<Mekanism:BasicBlock2:3>);
+NEI.hide(<Mekanism:BasicBlock2:4>);
+NEI.hide(<Mekanism:EnergyTablet>);
+
+//#MARKER REMOVE
+recipes.remove(<MekanismGenerators:Generator:6>);
+
+// ================================================================================
+//#MARKER REMOVE SHAPELESS
+
+// ================================================================================
+//#MARKER REMOVE SHAPED
+recipes.removeShaped(<Mekanism:MachineBlock3:4>, [[<ore:blockTin>, <minecraft:redstone>, <ore:blockTin>], [<minecraft:redstone>, <Mekanism:BasicBlock:8>, <minecraft:redstone>], [<ore:blockTin>, <contenttweaker:mek_energytablet>, <ore:blockTin>]]);
+recipes.removeShaped(<MekanismGenerators:Generator:9>, [[<ore:blockSteel>, <ore:blockGold>, <ore:blockSteel>], [<ore:blockGold>, <contenttweaker:mek_energytablet>, <ore:blockGold>], [<ore:blockSteel>, <ore:blockGold>, <ore:blockSteel>]]);
+
+// ================================================================================
+//#MARKER ADD
+
+// ================================================================================
+//#MARKER ADD SHAPELESS
+
+// ================================================================================
+//#MARKER ADD SHAPED
+recipes.addShaped(<Mekanism:MachineBlock3:4>, [[<ore:blockTin>, <minecraft:redstone>, <ore:blockTin>], [<minecraft:redstone>, <Mekanism:BasicBlock:8>, <minecraft:redstone>], [<ore:blockTin>, <contenttweaker:mek_energytablet>, <ore:blockTin>]]);
+recipes.addShaped(<MekanismGenerators:Generator:9>, [[<ore:blockSteel>, <ore:blockGold>, <ore:blockSteel>], [<ore:blockGold>, <contenttweaker:mek_energytablet>, <ore:blockGold>], [<ore:blockSteel>, <ore:blockGold>, <ore:blockSteel>]]);
 
 //EnderIO Conduits
 recipes.remove(<EnderIO:itemMEConduit>);
@@ -237,8 +268,8 @@ recipes.remove(<Forestry:scoop>);
 recipes.remove(<MagicBees:item.manasteelScoop>);
 NEI.hide(<Forestry:scoop>);
 NEI.hide(<MagicBees:item.manasteelScoop>);
-recipes.remove(<gendustry:IndustrialScoop:100>);
-recipes.addShaped(<gendustry:IndustrialScoop:100>, [[null, null, <MagicBees:item.thaumiumScoop>], [null, <ore:manaDiamond>, null], [<gendustry:PowerModule>, null, null]]);
+//recipes.remove(<gendustry:IndustrialScoop:100>);
+//recipes.addShaped(<gendustry:IndustrialScoop:100>, [[null, null, <MagicBees:item.thaumiumScoop>], [null, <ore:manaDiamond>, null], [<gendustry:PowerModule>, null, null]]);
 MTUtils.setItemMaxDamage(<MagicBees:item.thaumiumScoop>, 1);
 <MagicBees:item.thaumiumScoop>.addTooltip(format.red(format.bold("One time usage.")));
 

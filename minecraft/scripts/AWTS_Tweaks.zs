@@ -1,3 +1,17 @@
+recipes.remove(<MekanismGenerators:Generator:11>);
+recipes.remove(<Mekanism:ConfigurationCard>);
+recipes.remove(<craftingpillars:trashPillar>);
+recipes.remove(<craftingpillars:extendPillar>);
+recipes.removeShaped(<MekanismGenerators:Generator:10> * 2, [[null, <ore:blockSteel>, null], [<ore:blockSteel>, <ore:blockOsmium>, <ore:blockSteel>], [null, <ore:blockSteel>, null]]);
+recipes.addShapeless(<Mekanism:ControlCircuit:1>, [<Mekanism:ConfigurationCard>]);
+recipes.addShapeless(<minecraft:glass>, [<TConstruct:GlassBlock>]);
+recipes.addShaped(<Thaumcraft:blockCosmeticSlabWood> * 6, [[<Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:6>, <Thaumcraft:blockWoodenDevice:6>]]);
+recipes.addShaped(<MekanismGenerators:Generator:11> * 2, [[null, <MekanismGenerators:Generator:10>, null], [<MekanismGenerators:Generator:10>, <Mekanism:ControlCircuit:3>, <MekanismGenerators:Generator:10>], [null, <MekanismGenerators:Generator:10>, null]]);
+recipes.addShaped(<MekanismGenerators:Generator:10> * 4, [[null, <ore:blockSteel>, null], [<ore:blockSteel>, <ore:blockOsmium>, <ore:blockSteel>], [null, <ore:blockSteel>, null]]);
+recipes.addShaped(<Mekanism:ConfigurationCard>, [[<Mekanism:EnrichedAlloy>, <Mekanism:EnrichedAlloy>, <Mekanism:EnrichedAlloy>], [<Mekanism:EnrichedAlloy>, <Mekanism:ControlCircuit:1>, <Mekanism:EnrichedAlloy>], [<Mekanism:EnrichedAlloy>, <Mekanism:EnrichedAlloy>, <Mekanism:EnrichedAlloy>]]);
+recipes.addShaped(<craftingpillars:trashPillar>, [[<ore:blockMarble>, <ore:blockMarble>, <ore:blockMarble>], [<ore:blockMarble>, <ore:materialEnderPearl>, <ore:blockMarble>], [<ore:blockMarble>, <ore:blockMarble>, <ore:blockMarble>]]);
+recipes.addShaped(<craftingpillars:extendPillar>, [[<ore:blockMarble>, <ore:blockMarble>, <ore:blockMarble>], [null, <ore:blockMarble>, null], [<ore:blockMarble>, <ore:blockMarble>, <ore:blockMarble>]]);
+
 mods.logistics.hammer.addRecipe(<ExtraUtilities:block_bedrockium>, <ExtraUtilities:bedrockiumIngot> * 9);
 mods.logistics.hammer.addRecipe(<ExtraUtilities:cobblestone_compressed:7> * 2, <ExtraUtilities:block_bedrockium>);
 recipes.remove(<Growthcraft|Fishtrap:grc.fishTrap>);
@@ -94,7 +108,7 @@ mods.mekanism.chemical.Oxidizer.removeRecipe(<gas:brine>, <harvestcraft:saltItem
 
 mods.buildcraft.Refinery.addRecipe(<liquid:heavywater> * 15, 50, 50, <liquid:water> * 40, <liquid:water> * 40);
 
-/*
+
 //Remove
 recipes.remove(<Mekanism:MachineBlock2>);
 recipes.remove(<Mekanism:MachineBlock:14>);
@@ -109,20 +123,8 @@ recipes.remove(<Mekanism:Configurator:100>);
 recipes.remove(<Mekanism:AtomicDisassembler:100>);
 recipes.remove(<Mekanism:ElectricBow:100>);
 
-//Add Shapeless
-recipes.addShapeless(<PowerConverters3:powerconverters.rf:1>, [<PowerConverters3:powerconverters.rf>]);
-recipes.addShapeless(<PowerConverters3:powerconverters.ic2:7>, [<PowerConverters3:powerconverters.ic2:6>]);
-recipes.addShapeless(<PowerConverters3:powerconverters.ic2:5>, [<PowerConverters3:powerconverters.ic2:4>]);
-recipes.addShapeless(<PowerConverters3:powerconverters.ic2:3>, [<PowerConverters3:powerconverters.ic2:2>]);
-recipes.addShapeless(<PowerConverters3:powerconverters.ic2:1>, [<PowerConverters3:powerconverters.ic2>]);
 
 //Add Shaped
-recipes.addShaped(<PowerConverters3:powerconverters.rf> * 2, [[<ore:blockDarkSteel>, <ore:blockRedstone>, <ore:blockDarkSteel>], [<ore:blockRedstone>, <Mekanism:PartTransmitter:3>, <ore:blockRedstone>], [<ore:blockDarkSteel>, <ore:blockRedstone>, <ore:blockDarkSteel>]]);
-recipes.addShaped(<PowerConverters3:powerconverters.ic2:6> * 2, [[<ore:blockDarkSteel>, <ore:blockLapis>, <ore:blockDarkSteel>], [<ore:blockLapis>, <Mekanism:PartTransmitter:3>, <ore:blockLapis>], [<ore:blockDarkSteel>, <ore:blockLapis>, <ore:blockDarkSteel>]]);
-recipes.addShaped(<PowerConverters3:powerconverters.ic2:4> * 2, [[<ore:blockDarkSteel>, <ore:gemDiamond>, <ore:blockDarkSteel>], [<ore:gemDiamond>, <Mekanism:PartTransmitter:2>, <ore:gemDiamond>], [<ore:blockDarkSteel>, <ore:gemDiamond>, <ore:blockDarkSteel>]]);
-recipes.addShaped(<PowerConverters3:powerconverters.ic2:2> * 2, [[<ore:blockDarkSteel>, <ore:ingotGold>, <ore:blockDarkSteel>], [<ore:ingotGold>, <Mekanism:PartTransmitter:1>, <ore:ingotGold>], [<ore:blockDarkSteel>, <ore:ingotGold>, <ore:blockDarkSteel>]]);
-recipes.addShaped(<PowerConverters3:powerconverters.ic2> * 2, [[<ore:blockDarkSteel>, <ore:ingotCopper>, <ore:blockDarkSteel>], [<ore:ingotCopper>, <ore:universalCable>, <ore:ingotCopper>], [<ore:blockDarkSteel>, <ore:ingotCopper>, <ore:blockDarkSteel>]]);
-recipes.addShaped(<PowerConverters3:powerconverters.common> * 2, [[<ore:blockDarkSteel>, <ore:blockQuartz>, <ore:blockDarkSteel>], [<ore:blockQuartz>, <Mekanism:PartTransmitter:3>, <ore:blockQuartz>], [<ore:blockDarkSteel>, <ore:blockQuartz>, <ore:blockDarkSteel>]]);
 recipes.addShaped(<Mekanism:MachineBlock:14>, [[<minecraft:stone_pressure_plate>, <minecraft:stone_pressure_plate>, <minecraft:stone_pressure_plate>], [<ore:ingotSteel>, <contenttweaker:mek_energytablet>, <ore:ingotSteel>]]);
 recipes.addShaped(<Mekanism:MachineBlock2>, [[<ore:blockGlassColorless>, <ore:circuitBasic>, <ore:blockGlassColorless>], [<Mekanism:GasTank:100>, <contenttweaker:mek_energytablet>, <Mekanism:MachineBlock2:11>], [<ore:blockGlassColorless>, <ore:circuitBasic>, <ore:blockGlassColorless>]]);
 recipes.addShaped(<MekanismGenerators:Generator:1>, [[<MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>, <MekanismGenerators:SolarPanel>], [<ore:alloyAdvanced>, <ore:ingotIron>, <ore:alloyAdvanced>], [<ore:dustOsmium>, <contenttweaker:mek_energytablet>, <ore:dustOsmium>]]);
@@ -135,7 +137,6 @@ recipes.addShaped(<Mekanism:PortableTeleporter:100>, [[null, <contenttweaker:mek
 recipes.addShaped(<Mekanism:Configurator:100>, [[null, <ore:gemLapis>, null], [<ore:alloyAdvanced>, <contenttweaker:mek_energytablet>, <ore:alloyAdvanced>], [null, <ore:stickWood>, null]]);
 recipes.addShaped(<Mekanism:AtomicDisassembler:100>, [[<ore:alloyAdvanced>, null, <ore:alloyAdvanced>], [<ore:alloyAdvanced>, <Mekanism:AtomicAlloy>, <ore:alloyAdvanced>], [null, <ore:ingotRefinedObsidian>, null]]);
 recipes.addShaped(<Mekanism:ElectricBow:100>, [[null, <ore:alloyAdvanced>, <ore:helpstring>], [<contenttweaker:mek_energytablet>, null, <ore:helpstring>], [null, <ore:alloyAdvanced>, <ore:helpstring>]]);
-*/
 
 
 recipes.addShaped(<GalacticraftCore:tile.arclamp>, [[<ore:ingotDesh>, <minecraft:glowstone_dust>, <ore:ingotDesh>], [<minecraft:glowstone_dust>, <GalacticraftCore:item.battery:*>, <minecraft:glowstone_dust>], [<ore:ingotDesh>, <minecraft:glowstone_dust>, <ore:ingotDesh>]]);

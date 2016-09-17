@@ -56,6 +56,7 @@ recipes.remove(<ExtraUtilities:endConstructor>);
 recipes.remove(<ExtraUtilities:endConstructor:2>);
 recipes.remove(<ExtraUtilities:decorativeBlock1:1>);
 recipes.remove(<ExtraUtilities:angelRing:*>);
+recipes.remove(<DraconicEvolution:wyvernCore>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -92,7 +93,7 @@ recipes.addShaped(<ExtraUtilities:generator:11>, [[<minecraft:nether_star>, <ore
 recipes.addShaped(<ExtraUtilities:block_bedrockium>, [[<ore:compressedCobblestone8x>, <ExtraUtilities:cobblestone_compressed:6>, <ore:compressedCobblestone8x>], [<ExtraUtilities:cobblestone_compressed:6>, <ThermalFoundation:bucket:5>, <ExtraUtilities:cobblestone_compressed:6>], [<ore:compressedCobblestone8x>, <ExtraUtilities:cobblestone_compressed:6>, <ore:compressedCobblestone8x>]]);
 recipes.addShaped(<MineFactoryReloaded:machine.2>, [[<ore:sheetPlastic>, <ThermalExpansion:Light>, <ore:sheetPlastic>], [<EnderIO:itemPowerConduit:2>, <BuildCraft|Builders:machineBlock>, <EnderIO:itemPowerConduit:2>], [<ore:blockGlassHardenedIlluminated>, <Mekanism:MachineBlock2:13>, <ore:blockGlassHardenedIlluminated>]]);
 recipes.addShaped(<mo:machine_casing>, [[null, <mo:tritanium_plate>, null], [<ore:ingotTritanium>, null, <ore:ingotTritanium>], [<ore:ingotGold>, <DraconicEvolution:draconicCore>, <ore:ingotGold>]]);
-recipes.addShaped(<DraconicEvolution:wyvernCore>, [[<ore:itemEnrichedAlloy>, <DraconicEvolution:draconicCore>, <ore:itemEnrichedAlloy>], [<DraconicEvolution:draconicCore>, null, <DraconicEvolution:draconicCore>], [<ore:itemEnrichedAlloy>, <DraconicEvolution:draconicCore>, <ore:itemEnrichedAlloy>]]);
+recipes.addShaped(<DraconicEvolution:wyvernCore>, [[<ore:itemEnrichedAlloy>, <DraconicEvolution:draconicCore>, <ore:itemEnrichedAlloy>], [<DraconicEvolution:draconicCore>, <minecraft:nether_star>, <DraconicEvolution:draconicCore>], [<ore:itemEnrichedAlloy>, <DraconicEvolution:draconicCore>, <ore:itemEnrichedAlloy>]]);
 recipes.addShaped(<gendustry:PowerModule>, [[<ore:gearBronze>, <ore:ingotGold>, <ore:gearBronze>], [<ore:craftingPiston>, <DraconicEvolution:wyvernCore>, <ore:craftingPiston>], [<ore:gearBronze>, <ore:ingotGold>, <ore:gearBronze>]]);
 recipes.addShaped(<rftools:environmentalControllerBlock>, [[<ore:redstoneCrystal>, <ore:blockLudicrite>, <ore:redstoneCrystal>], [<Botania:storage:1>, <rftools:machineFrame>, <ore:blockThauminite>], [<ore:redstoneCrystal>, <ore:blockMithril>, <ore:redstoneCrystal>]]);
 recipes.addShaped(<appliedenergistics2:tile.BlockInscriber>, [[<appliedenergistics2:tile.BlockSkyStone:1>, <minecraft:sticky_piston>, <appliedenergistics2:tile.BlockSkyStone:1>], [<ore:crystalPureFluix>, null, <LogisticsPipes:item.PipeItemsBasicLogistics>], [<appliedenergistics2:tile.BlockSkyStone:1>, <minecraft:sticky_piston>, <appliedenergistics2:tile.BlockSkyStone:1>]]);
