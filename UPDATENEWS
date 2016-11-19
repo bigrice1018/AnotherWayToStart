@@ -1,5 +1,6 @@
-Discord integration explaination
-Discord chat <=> Minecraft chat
-As simple as that :D
-[Singleplayer Only]
+For all players wandering why chat pop up on my singleplayer world, 
+it is because all client are connected to a irc like (chatroom) software 
+so that you can chat with each other ingame. 
+If you don't want this feature, 
+you can just delete discordintegration in your mods folder.
 
