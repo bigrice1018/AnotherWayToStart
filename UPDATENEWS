@@ -1,6 +1,3 @@
-For all players wandering why chat pop up on my singleplayer world, 
-it is because all client are connected to a irc like (chatroom) software 
-so that you can chat with each other ingame. 
-If you don't want this feature, 
-you can just delete discordintegration in your mods folder.
-
+1.3.0 hopefully will be the last version of AWTS
+Please report all the bugs you find 
+either in discord or github
