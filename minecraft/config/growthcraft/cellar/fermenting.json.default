@@ -1770,64 +1770,10 @@
       },
       "input_fluid": {
         "name": null,
-        "names": [
-          "grcmilk.milk"
-        ],
-        "inclusion_tags": [],
-        "exclusion_tags": [],
-        "comment": "",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis0",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "ore": null,
-        "comment": "Nether Wart",
-        "mod_id": "minecraft",
-        "name": "nether_wart",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "name": null,
-        "names": [
-          "grcmilk.milk"
-        ],
-        "inclusion_tags": [],
-        "exclusion_tags": [],
-        "comment": "",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis0",
-        "amount": 1
-      },
-      "time": 15840
-    },
-    {
-      "comment": "",
-      "item": {
-        "ore": null,
-        "comment": "Brewers Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "name": null,
-        "names": [
+        "names": [],
+        "inclusion_tags": [
           "milk"
         ],
-        "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
         "amount": 1
@@ -1851,64 +1797,10 @@
       },
       "input_fluid": {
         "name": null,
-        "names": [
+        "names": [],
+        "inclusion_tags": [
           "milk"
         ],
-        "inclusion_tags": [],
-        "exclusion_tags": [],
-        "comment": "",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis0",
-        "amount": 1
-      },
-      "time": 15840
-    },
-    {
-      "comment": "",
-      "item": {
-        "ore": null,
-        "comment": "Brewers Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "name": null,
-        "names": [
-          "fluidmilk"
-        ],
-        "inclusion_tags": [],
-        "exclusion_tags": [],
-        "comment": "",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis0",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "ore": null,
-        "comment": "Nether Wart",
-        "mod_id": "minecraft",
-        "name": "nether_wart",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "name": null,
-        "names": [
-          "fluidmilk"
-        ],
-        "inclusion_tags": [],
         "exclusion_tags": [],
         "comment": "",
         "amount": 1

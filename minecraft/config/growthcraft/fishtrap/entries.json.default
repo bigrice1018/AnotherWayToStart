@@ -142,21 +142,6 @@
       "weight": 10,
       "item": {
         "ore": null,
-        "comment": "Tripwire Hook",
-        "mod_id": "minecraft",
-        "name": "tripwire_hook",
-        "amount": 1,
-        "meta": 0
-      },
-      "damage_variance": 0.0,
-      "enchanted": false
-    },
-    {
-      "comment": "",
-      "group": "junk",
-      "weight": 10,
-      "item": {
-        "ore": null,
         "comment": "Rotten Flesh",
         "mod_id": "minecraft",
         "name": "rotten_flesh",
@@ -312,6 +297,81 @@
         "name": "fish",
         "amount": 1,
         "meta": 3
+      },
+      "damage_variance": 0.0,
+      "enchanted": false
+    },
+    {
+      "comment": "",
+      "group": "mineral",
+      "weight": 1,
+      "item": {
+        "ore": null,
+        "comment": "Tripwire Hook",
+        "mod_id": "minecraft",
+        "name": "tripwire_hook",
+        "amount": 1,
+        "meta": 0
+      },
+      "damage_variance": 0.0,
+      "enchanted": false
+    },
+    {
+      "comment": "",
+      "group": "mineral",
+      "weight": 10,
+      "item": {
+        "ore": null,
+        "comment": "Iron Ingot",
+        "mod_id": "minecraft",
+        "name": "iron_ingot",
+        "amount": 1,
+        "meta": 0
+      },
+      "damage_variance": 0.0,
+      "enchanted": false
+    },
+    {
+      "comment": "",
+      "group": "mineral",
+      "weight": 5,
+      "item": {
+        "ore": null,
+        "comment": "Gold Nugget",
+        "mod_id": "minecraft",
+        "name": "gold_nugget",
+        "amount": 1,
+        "meta": 0
+      },
+      "damage_variance": 0.0,
+      "enchanted": false
+    },
+    {
+      "comment": "",
+      "group": "legendary",
+      "weight": 1,
+      "item": {
+        "ore": null,
+        "comment": "Gold Ingot",
+        "mod_id": "minecraft",
+        "name": "gold_ingot",
+        "amount": 1,
+        "meta": 0
+      },
+      "damage_variance": 0.0,
+      "enchanted": false
+    },
+    {
+      "comment": "",
+      "group": "legendary",
+      "weight": 10,
+      "item": {
+        "ore": null,
+        "comment": "Diamond",
+        "mod_id": "minecraft",
+        "name": "diamond",
+        "amount": 1,
+        "meta": 0
       },
       "damage_variance": 0.0,
       "enchanted": false

@@ -16,3 +16,5 @@ net.minecraft.tileentity.TileEntityHopper	hopper
 net.minecraft.tileentity.TileEntityNote	note_block
 net.minecraft.tileentity.TileEntitySign	sign
 net.minecraft.tileentity.TileEntitySkull	skull
+thaumcraft.common.tiles.TileJarFillable	tilejar
+thaumicenergistics.tileentities.TileEssentiaProvider	thaumicenergistics_tileessentiaprovider

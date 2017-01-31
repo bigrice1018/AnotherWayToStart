@@ -146,9 +146,6 @@ mods.avaritia.ExtremeCrafting.addShaped(<Avaritia:Infinity_Shoes>,
 [null, null, null, null, null, null, null, null, null],
 [null, null, null, null, null, null, null, null, null]]);
 
-//Neutronium Compressor
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Neutronium_Compressor>);
-
 //Remove
 NEI.hide(<Avaritia:Infinity_Pickaxe>);
 mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Pickaxe>);
@@ -164,8 +161,6 @@ NEI.hide(<Botania:specialFlower>.withTag({type: "asgardandelion"}));
 mods.avaritia.ExtremeCrafting.remove(<Botania:specialFlower>.withTag({type: "asgardandelion"}));
 NEI.hide(<Botania:specialFlower>.withTag({type: "soarleander"}));
 mods.avaritia.ExtremeCrafting.remove(<Botania:specialFlower>.withTag({type: "soarleander"}));
-NEI.hide(<Avaritia:Endest_Pearl>);
-mods.avaritia.ExtremeCrafting.remove(<Avaritia:Endest_Pearl>);
 NEI.hide(<Botania:floatingSpecialFlower>.withTag({type: "asgardandelion"}));
 mods.avaritia.ExtremeCrafting.remove(<Botania:floatingSpecialFlower>.withTag({type: "asgardandelion"}));
 NEI.hide(<Botania:floatingSpecialFlower>.withTag({type: "soarleander"}));
